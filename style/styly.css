@@ -64,6 +64,20 @@ img {
     background-color: #f0f2f4;
 }
 
+.slider_clik {
+    position: relative;
+    display: block;
+    user-select: none;
+    touch-action: pan-y;
+}
+
+.slick_role {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 0;
+    top: 0;
+}
 /* -------------------------section_five------------------------ */
 
 .section_five {
