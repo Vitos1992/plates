@@ -1,14 +1,5 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-cheveron-down" viewBox="0 0 20 20">
-<path d="M9.293 12.95l0.707 0.707 5.657-5.657-1.414-1.414-4.243 4.242-4.243-4.242-1.414 1.414z"></path>
-</symbol>
-<symbol id="icon-cheveron-left" viewBox="0 0 20 20">
-<path d="M7.050 9.293l-0.707 0.707 5.657 5.657 1.414-1.414-4.242-4.243 4.242-4.243-1.414-1.414z"></path>
-</symbol>
-<symbol id="icon-cheveron-right" viewBox="0 0 20 20">
-<path d="M12.95 10.707l0.707-0.707-5.657-5.657-1.414 1.414 4.242 4.243-4.242 4.243 1.414 1.414 4.95-4.95z"></path>
-</symbol>
 <symbol id="icon-vertical_align_bottom" viewBox="0 0 24 24">
 <path d="M3.984 18.984h16.031v2.016h-16.031v-2.016zM15.984 12.984l-3.984 4.031-3.984-4.031h3v-9.984h1.969v9.984h3z"></path>
 </symbol>

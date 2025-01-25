@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+* *::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #434455;
+    margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    height: auto;
+}
+
+.list {
+    display: block;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1160px;
+}
