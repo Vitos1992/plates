@@ -44,5 +44,29 @@ img {
 }
 
 .container {
-    max-width: 1160px;
+    width: 1160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+/* ---------------------------header---------------------- */
+
+/* --------------------section_one --------------------*/
+
+.section_one {
+    background-color: #f0f2f4;
+}
+
+/*--------------------------section_two---------------------- */
+
+.section_two {
+    background-color: #f0f2f4;
+}
+
+/* -------------------------section_five------------------------ */
+
+.section_five {
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
 }
