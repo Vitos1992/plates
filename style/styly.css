@@ -202,7 +202,147 @@ img {
 /* -------------------------section_five------------------------ */
 
 .section_five {
+    background-image: url(../imeges/b5493f24c2eabd85724542307f7c7e83.png);
     border-top: 2px solid #f0f0f0;
     border-bottom: 2px solid #f0f0f0;
+    padding: 90px 0 90px 0;
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.form_flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form_flex_h {
+    display: flex;
+    flex-direction: column;
+    align-content: normal;
+}
+
+.form_title {
+    font-family: 'RobotoCondensed';
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: 700;
+    color: #293141;
+    margin-bottom: 27px;
+}
+
+
+.form_text {
+    width: 404px;
+    color: #000;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5em;
+    position: relative;
+
+}
+
+.form_modal {
+    width: 352px;
+    border-radius: 4px;
+    border: 2px black;
+}
+
+.servants_form {
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.serv_input {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    max-width: 100%;
+    outline: none;
+    transition: all .3s;
+    font-family: inherit;
+    padding: 0 14px 0 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.name_form {
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.name_input {
+    width: 100%;
+    height: 36px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    max-width: 100%;
+    outline: none;
+    transition: border-color .15s ease-in-out;
+    font-family: inherit;
+    padding: 0 18px 0 18px;
+    margin-bottom: 20px;
+
+}
+
+.tel_form {
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 5px;
+
+}
+
+.tel_input {
+    width: 100%;
+    height: 36px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    max-width: 100%;
+    outline: none;
+    transition: border-color .15s ease-in-out;
+    font-family: inherit;
+    padding: 0 18px 0 18px;
+    margin-bottom: 20px;
 }
