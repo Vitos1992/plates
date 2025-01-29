@@ -414,7 +414,7 @@ img {
 }
 
 .btn_up {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
@@ -431,6 +431,13 @@ img {
     margin-right: auto;
 }
 
+.btn_item:hover,
+.btn_item:focus {
+    color: #f9c000;
+    fill: #f9c000;
+}
+
+
 .btn_item {
     display: flex;
     flex-direction: row;
@@ -439,8 +446,18 @@ img {
     gap: 10px;
 }
 
-
+.use {
+    width: 22px;
+    height: 22px;
+}
 
 .btn_svg {
     fill: #fff;
+    transition: all .3s;
+    cursor: pointer;
 }
+
+/* .btn_svg:hover,
+.btn_svg:focus {
+    fill: #f9c000;
+} */
