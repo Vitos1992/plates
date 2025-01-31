@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', Condensed;
+    font-family: 'RobotoCondensed';
     color: #434455;
     margin: 0 auto;
 }
@@ -185,16 +185,21 @@ img {
     padding: 50px 0 50px 0;
 }
 
-.title_foor {
+.title_under {
     display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title_foor {
     font-family: 'Roboto', sans-serif;
     color: #293141;
     font-size: 36px;
     font-weight: 400;
     line-height: 1em;
     text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 20px;
+    padding: 0 10px 20px 10px;
 }
 
 .underline {
@@ -207,6 +212,8 @@ img {
     width: 60px;
     height: 3px;
     background-color: #006dca;
+    left: 44%;
+    bottom: 0;
 
 }
 
@@ -221,7 +228,10 @@ img {
 
 .slider_line {
     display: flex;
-    transition: all 1s;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 10px;
+    
 }
 
 .slider_foor {
@@ -231,8 +241,62 @@ img {
     
 }
 
+.list_wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .slider_img {
-    width: 192px;
+    box-shadow: -10px -10px 0 #e7ecf0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+}
+
+.text_p {
+    font-family: 'RobotoCondensed';
+    color: #006dca;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.3em;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+    min-height: 32px;
+}
+
+.item_a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.click_down {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #f9c000;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    width: 130px;
+    min-height: 40px;
+    left: 20%;
 }
 
 .svg_down {
@@ -414,7 +478,7 @@ img {
 }
 
 .btn_up {
-    font-family: 'Roboto';
+    font-family: 'RobotoCondensed';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
