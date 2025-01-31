@@ -123,7 +123,7 @@ img {
     font-weight: 300;
     line-height: 1.5em;
     position: relative;
-    z-index: 10;
+   
 
 }
 
@@ -299,6 +299,11 @@ img {
     left: 20%;
 }
 
+.click_down:hover,
+.click_down:focus {
+    background-color: #FFA500;
+}
+
 .svg_down {
     width: 14px;
     height: 14px;
@@ -450,6 +455,30 @@ img {
     font-family: inherit;
     padding: 0 18px 0 18px;
     margin-bottom: 20px;
+}
+
+.click_down_form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9c000;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    width: 75%;
+    min-height: 40px;
+    
 }
 
 /*-------------------------- section_six---------------------- */
