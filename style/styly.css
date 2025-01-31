@@ -123,7 +123,6 @@ img {
     font-weight: 300;
     line-height: 1.5em;
     position: relative;
-   
 
 }
 
@@ -149,7 +148,9 @@ img {
 }
 
 .ul_flex {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -235,9 +236,12 @@ img {
 }
 
 .slider_foor {
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     max-width: 245px;
-    display: block;
+    display: inline-block;
+    border-left: 6px salmon;
     
 }
 
@@ -308,6 +312,31 @@ img {
     width: 14px;
     height: 14px;
 }
+
+.text_a {
+    color: #006dca;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.3em;
+    text-decoration: transparent;
+    text-align: center;
+}
+
+.click_btn {
+    background-color: #f9c000;
+    border: 2px solid;
+    border-radius: 4px;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
 
 /* -------------------------section_five------------------------ */
 
