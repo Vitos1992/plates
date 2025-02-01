@@ -45,7 +45,7 @@ img {
 }
 
 .container {
-    width: 1160px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -53,6 +53,82 @@ img {
 
 /* ---------------------------header---------------------- */
 
+.container_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.adderss_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_head {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.addres_tel {
+    display: block;
+    margin-left: 20px;
+}
+
+.btn_head {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9c000;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    min-height: 40px;
+    margin-left: 20px;
+}
+
+.btn_head:hover,
+.btn_head:focus {
+    background-color: #FFA500;
+}
+
+.list_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_flex {
+    
+    position: relative;
+    overflow: hidden;
+    display: block;
+    
+    margin-left: 20px;
+}
+
+.slidr_head {
+    font-family: 'Roboto';
+    color: #283140;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
 /* --------------------section_one --------------------*/
 
 .section_one {
