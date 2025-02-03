@@ -637,6 +637,18 @@ img {
     fill: #f9c000;
 }
 
+.logo_footer {
+    margin-bottom: 10px;
+    display: block;
+    max-width: 150px;
+}
+
+.text_icon {
+    color: #abadb1;
+    font-size: 14px;
+    font-weight: 300;
+}
+
 
 .btn_item {
     display: flex;
@@ -655,6 +667,58 @@ img {
     fill: #fff;
     transition: all .3s;
     cursor: pointer;
+}
+
+.footer_nav_inf {
+    display: flex;
+
+}
+
+.footer_nav_map {
+    display: flex;
+}
+
+.footer_map {
+    display: flex;
+    flex-direction: column;
+    width: 266px;
+}
+
+.svg_map {
+    fill: #f9c000;
+    margin-right: 10px;
+}
+
+.nav_footer {
+    display: flex;
+}
+
+.title_footer {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #abadb1;
+    margin-bottom: 5px;
+}
+
+.text_item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.item_foter {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item_foter:hover {
+    color: #f9c000;
 }
 
 /* .btn_svg:hover,
