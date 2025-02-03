@@ -312,12 +312,9 @@ img {
 }
 
 .slider_foor {
-    display: flex;
-    justify-content: center;
     cursor: pointer;
     max-width: 245px;
-    display: inline-block;
-    border-left: 6px salmon;
+    display: block;
     
 }
 
