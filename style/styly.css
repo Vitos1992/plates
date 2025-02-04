@@ -590,24 +590,30 @@ img {
 .cont_box {
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 100px 0;
-    opacity: 1;
-}
+    /* padding: 50px 0 50px 0; */
+    /* opacity: 1; */
+    
+    /* overflow: hidden; */
 
-.slider_line_comp {
-    display: flex;
-    align-items: center;
-    width: 200px;
 }
 
 .slider_row {
     display: flex;
-    position: relative;
-    width: 100%;
+    width: 200px;
     overflow: hidden;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 800px; */
     transition: all .1s;
 }
 
+.slider_line_comp {
+    display: flex;
+    
+    width: 200px;
+    /* padding: 25px 10px 25px 10px; */
+
+}
 .slider_btn_left {
     display: flex;
     align-items: center;
