@@ -256,6 +256,69 @@ img {
 
 }
 
+.blok_thre {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.title_thre {
+    font-family: 'Roboto';
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: start;
+}
+
+.list_thre {
+    display: flex;
+}
+
+.list_thre.svg {
+    fill: #f9c000;
+}
+
+.title_thre_box {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    margin-left: 16px;
+}
+
+.title_name {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.text_thre {
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: start;
+    position: relative;
+    margin-bottom: 34px;
+}
+
+.text_thre::after {
+    content: '';
+    width: 180px;
+    height: 2px;
+    background-color: #f9c000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
 /* -----------------------section_foor------------------- */
 
 .section_foor {
