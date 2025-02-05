@@ -1,0 +1,165 @@
+*,*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+
+.img {
+    width: 500px;
+    
+    
+}
+
+/* .slider_line{
+    display: flex; */
+    /* gap: 50px; */
+    /* transition: all 1s;
+    
+    list-style: none;
+    font-style: normal;
+    padding: 0;
+} */
+
+/* .slider {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+} */ 
+
+/* Слайдер */
+.slick-slider{}
+
+/* Слайдер запущений */
+.slick-slider.slick-initialized{}
+
+/* Слайдер з крапками */
+.slick-slider.slick-dotted{}
+
+/* Обмежувальна оболонка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Стрічка слайдів */
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+/* Слайд */
+.slick-slide{}
+
+/* Слайд активний (показується) */
+.slick-slide.slick-active{}
+
+/* Слайд основний */
+.slick-slide.slick-current{}
+
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Клонований слайд */
+.slick-slide.slick-cloned{}
+
+/* Стрілка */
+.slick-arrow{}
+
+/* Стрілка вліво */
+.slick-arrow.slick-prev{}
+
+/* Стрілка вправо */
+.slick-arrow.slick-next{}
+
+/* Стрілка не активна */
+.slick-arrow.slick-disabled{}
+
+/* Точки (буліти) */
+.slick-dots{}
+
+.slick-dots li{}
+
+/* Активна точка */
+.slick-dots li.slick-active{}
+
+/* Елемент точки */
+.slick-dots li button{}
+
+
+.slider_line {
+    position: relative;
+    padding: 0px 60px ;
+}
+
+.slider_line
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+}
+
+.slider_line
+.slick-arrow
+.slick-prev {
+    left: 0;
+    background: url(../plates/imeges/symbol-defs.svg#icon-cheveron-left) 0 0 / 100% no-repeat;
+}
+
+.slider_line
+.slick-arrow
+.slick-next {
+    right: 0;
+    background: url(../plates/imeges/symbol-defs.svg#icon-cheveron-right) 0 0 / 100% no-repeat;
+}
+
+.slider_line
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider_line
+.slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slider_line
+.slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slider_line.slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff;
+} 
+
+.slider_line.slick-dots li.slick-active li button {
+    
+}
+
+

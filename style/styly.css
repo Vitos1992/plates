@@ -36,13 +36,6 @@ img {
     height: auto;
 }
 
-.list {
-    display: block;
-    list-style: none;
-    font-style: normal;
-    text-decoration: none;
-    padding: 0;
-}
 
 .container {
     width: 1200px;
@@ -347,13 +340,26 @@ img {
 }
 
 .li_galary {
-    width: 20px;
-    border: 2px solid #fff;
-    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    
+    
     margin-left: 7px;
     position: relative;
     cursor: pointer;
     display: flex;
+    background-color: #006dca;
+}
+
+.btn_galary {
+    background-color: #006dca;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn_galary:focus {
+    background-color: #f9c000;
 }
 
 .btm_box {
@@ -695,13 +701,24 @@ img {
 
 
 .form_text {
-    width: 404px;
+    width: 250px;
     color: #000;
-    font-size: 21px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 1.5em;
+    padding-left: 100px;
     position: relative;
 
+}
+
+.form_text::before {
+    content: '';
+    position: absolute;
+    left: -100px;
+    top: 12px;
+    width: 180px;
+    background-color: #f9c000;
+    height: 2px;
 }
 
 .form_modal {

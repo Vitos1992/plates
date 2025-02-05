@@ -1,3 +1,7 @@
+// $(document).ready(function(){
+//     $('.slider').slick();
+// });
+
 
 // /---------------section_six-----------------/ 
 
