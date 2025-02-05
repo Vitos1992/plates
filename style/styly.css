@@ -158,7 +158,7 @@ img {
     align-items: flex-start;
     padding-bottom: 180px;
     padding-top: 15%;
-    height: 600px;
+    height: 700px;
 }
 
 .titne_one {
@@ -270,8 +270,6 @@ img {
     background-image: url(../imeges/section2-bg-1.png);
     background-size: 50% 100%;
     background-position: top right;
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
@@ -305,12 +303,13 @@ img {
 }
 
 .text_section {
-    width: 552px;
+    width: 100%;
     color: #000;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5em;
     position: relative;
+    margin-right: 50px;
 
 }
 
@@ -333,6 +332,7 @@ img {
     overflow: hidden;
     left: 0;
     top: 0;
+    margin-bottom: 10px;
 }
 
 .ul_flex {
@@ -354,6 +354,64 @@ img {
     position: relative;
     cursor: pointer;
     display: flex;
+}
+
+.btm_box {
+    display: flex;
+    gap: 20px;
+}
+
+.btn_two {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9c000;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    height: 56px;
+    width: 220px;
+    padding: 0 15px 0 15px;
+}
+
+.btn_two:hover,
+.btnTwo:hover {
+    background-color: #FFA500;
+}
+
+.btnTwo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    height: 56px;
+    width: 320px;
+    padding: 0 15px 0 15px;
 }
 
 /* ------------------------section_thre -------------------*/
@@ -616,6 +674,7 @@ img {
 .form_flex {
     display: flex;
     justify-content: space-between;
+    padding: 25px 0 25px 0;
 
 }
 
@@ -646,9 +705,13 @@ img {
 }
 
 .form_modal {
-    width: 352px;
+    width: 404px;
     border-radius: 4px;
     border: 2px black;
+}
+
+.user_menu {
+    position: relative;
 }
 
 .servants_form {
@@ -661,6 +724,14 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     margin-bottom: 5px;
+}
+
+.form_icon {
+    position: absolute;
+    transition: all .3s;
+    fill: #2E2F42;
+    top: 50%;
+    left: 75%;
 }
 
 .serv_input {
@@ -681,6 +752,7 @@ img {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    outline: transparent;
 
 }
 
