@@ -19,9 +19,11 @@ html, body {
 }
 
 .img {
-    width: 500px;
-    
-    
+    padding: 0px 15px; 
+}
+
+.img img {
+    max-width: 100%;
 }
 
 /* .slider_line{
@@ -105,8 +107,7 @@ html, body {
     padding: 0px 60px ;
 }
 
-.slider_line
-.slick-arrow {
+.slider_line .slick-arrow {
     position: absolute;
     top: 50%;
     margin: -30px 0px 0px 0px;
@@ -116,27 +117,27 @@ html, body {
     height: 60px;
 }
 
-.slider_line
-.slick-arrow
-.slick-prev {
+.slider_line .slick-arrow.slick-prev {
     left: 0;
     background: url(../plates/imeges/symbol-defs.svg#icon-cheveron-left) 0 0 / 100% no-repeat;
 }
 
-.slider_line
-.slick-arrow
-.slick-next {
+.slider_line .slick-arrow.slick-next {
     right: 0;
     background: url(../plates/imeges/symbol-defs.svg#icon-cheveron-right) 0 0 / 100% no-repeat;
 }
 
-.slider_line
-.slick-dots{
+.slider_line .slick-dots{
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+
+.slider_line .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+} 
 
 .slider_line
 .slick-dots li{
@@ -153,10 +154,10 @@ html, body {
     border-radius: 50%;
 }
 
-.slider_line.slick-dots li.slick-active button {
-    background-color: transparent;
-    border: 1px solid #fff;
-} 
+.slider_line .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
 
 .slider_line.slick-dots li.slick-active li button {
     
