@@ -284,6 +284,8 @@ img {
 
 .section_flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text_section_two {
@@ -296,14 +298,19 @@ img {
 }
 
 .text_section {
-    width: 100%;
+    font-family: 'Roboto';
     color: #000;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5em;
     position: relative;
-    margin-right: 50px;
+    padding: 0px 10px 20px 40px;
+    
 
+}
+
+.viem_text {
+    margin-right: 100px;
 }
 
 .text_viem p {
@@ -314,15 +321,14 @@ img {
     width: 680px;
     height: 100%;
     position: relative;
-    display: block;
-    user-select: none;
-    touch-action: pan-y;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .slick_role {
     width: 596px;
-    display: flex;
-    justify-content: flex-start;
     position: relative;
     overflow: hidden;
     left: 0;
@@ -1169,11 +1175,11 @@ img {
 
 
 .slick_role {
-    /* position: relative; */
-    padding: 0px 60px ;
+    position: relative;
+    /* padding: 0px 60px ; */
 }
 
-.slick_role .slick-arrow {
+/* .slick_role .slick-arrow {
     position: absolute;
     top: 50%;
     margin: -30px 0px 0px 0px;
@@ -1181,7 +1187,8 @@ img {
     font-size: 0;
     width: 30px;
     height: 60px;
-}
+    display: none;
+} */
 
 
 .slick_role .slick-dots{
@@ -1198,8 +1205,8 @@ img {
 
 .slick_role .slick-dots li button{
     font-size: 0;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: #fff;
     border-radius: 50%;
 }
