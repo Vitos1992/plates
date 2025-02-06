@@ -876,11 +876,7 @@ img {
 .cont_box {
     display: flex;
     justify-content: space-between;
-    /* padding: 50px 0 50px 0; */
-    /* opacity: 1; */
-    
-    /* overflow: hidden; */
-
+    padding: 50px 0 50px 0;
 }
 
 .slider_row {
@@ -1173,13 +1169,14 @@ img {
 /* Елемент точки */
 .slick-dots li button{}
 
+/* ---------------section_two------------ */
 
 .slick_role {
     position: relative;
     /* padding: 0px 60px ; */
 }
 
-/* .slick_role .slick-arrow {
+.slick_role .slick-arrow {
     position: absolute;
     top: 50%;
     margin: -30px 0px 0px 0px;
@@ -1187,8 +1184,8 @@ img {
     font-size: 0;
     width: 30px;
     height: 60px;
-    display: none;
-} */
+    
+}
 
 
 .slick_role .slick-dots{
@@ -1216,4 +1213,45 @@ img {
 	border: 1px solid #fff;
 }
 
+/* --------------------------slider section_six */
 
+
+
+.slider_row {
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider_row .slick-track {
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_row .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px; 
+    fill: #000;
+    
+}
+
+.slider_row .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider_row .slick-arrow.slick-prev {
+    left: 0;
+    background: url(../imeges/sl-arrow_l.svg) 0 0 / 100% no-repeat;
+}
+
+.slider_row .slick-arrow.slick-next {
+    right: 0;
+    background: url(../imeges/sl-arrow_r.svg) 0 0 / 100% no-repeat;
+}
