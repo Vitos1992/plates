@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.slick_role').slick({
-        arrows:true,
+        arrows:false,
         dots:true,
         adaptiveHeight:true,
         speed:1000,
@@ -10,10 +10,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.slider_row').slick({
-        // arrows:true,
-        // dots:true,
-        // adaptiveHeight:true,
-        // speed:1000,
-        // easing:'ease',
+        arrows:true,
+        dots:false,
+        slidesToShow:5,
+        adaptiveHeight:true,
+        speed:1000,
+        easing:'ease'
     });
 });

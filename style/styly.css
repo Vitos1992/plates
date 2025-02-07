@@ -881,11 +881,10 @@ img {
 
 .slider_row {
     display: flex;
-    width: 200px;
+    width: 100%;
     overflow: hidden;
     align-items: center;
     justify-content: flex-start;
-    /* width: 800px; */
     transition: all .1s;
 }
 
@@ -893,7 +892,7 @@ img {
     display: flex;
     
     width: 200px;
-    /* padding: 25px 10px 25px 10px; */
+    padding: 25px 10px 25px 10px;
 
 }
 .slider_btn_left {
@@ -1184,6 +1183,7 @@ img {
     font-size: 0;
     width: 30px;
     height: 60px;
+    display: none;
     
 }
 
@@ -1235,7 +1235,7 @@ img {
     font-size: 0;
     width: 30px;
     height: 60px; 
-    fill: #000;
+    color: #000;
     
 }
 
