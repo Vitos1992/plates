@@ -18,3 +18,14 @@ $(document).ready(function(){
         easing:'ease'
     });
 });
+
+$(document).ready(function(){
+    $('.slider_line').slick({
+        arrows:true,
+        dots:false,
+        slidesToShow:4,
+        adaptiveHeight:true,
+        speed:1000,
+        easing:'ease'
+    });
+});

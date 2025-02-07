@@ -574,14 +574,15 @@ img {
 
 .slider_foor {
     cursor: pointer;
-    max-width: 245px;
     display: block;
+    
     
 }
 
 .list_wrap {
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 20px 0px 20px;
 }
 
 .slider_img {
@@ -1235,7 +1236,8 @@ img {
     font-size: 0;
     width: 30px;
     height: 60px; 
-    color: #000;
+    fill: #000;
+    border: none;
     
 }
 
@@ -1248,10 +1250,52 @@ img {
 
 .slider_row .slick-arrow.slick-prev {
     left: 0;
-    background: url(../imeges/sl-arrow_l.svg) 0 0 / 100% no-repeat;
+    background: url(../imeges/palets.svg#icon-chevron-thin-left) 0 0 / 100% no-repeat;
+
 }
 
 .slider_row .slick-arrow.slick-next {
+    right: 0;
+    background: url(../imeges/sl-arrow_r.svg) 0 0 / 100% no-repeat;
+}
+
+ /* -----------------section foor */
+
+.slider_line {
+    position: relative;
+    padding: 0px 80px;
+}
+
+.slider_line .slick-track {
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_line .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -30px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 60px; 
+    color: #000;
+    
+}
+
+.slider_line .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider_line .slick-arrow.slick-prev {
+    left: 0;
+    background: url(../imeges/sl-arrow_l.svg) 0 0 / 100% no-repeat;
+}
+
+.slider_line .slick-arrow.slick-next {
     right: 0;
     background: url(../imeges/sl-arrow_r.svg) 0 0 / 100% no-repeat;
 }
