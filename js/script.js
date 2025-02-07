@@ -29,3 +29,14 @@ $(document).ready(function(){
         easing:'ease'
     });
 });
+
+const open = document.querySelector('#open');
+const menu = document.querySelector('#menu');
+
+open.addEventListener('click', () => {
+    if (menu.classList.contains('.closed') == true) {
+        menu.classList.remove('.closed');
+    }  else {
+        menu.classList.add('.closed');
+    }
+})
