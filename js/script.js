@@ -40,3 +40,6 @@ open.addEventListener('click', () => {
         menu.classList.add('.closed');
     }
 })
+
+// ---------------------------------
+

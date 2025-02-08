@@ -30,7 +30,7 @@
                     <address class="adderss_list">
                         <ul class="list nav_list">
                             <li class="addres_tel">
-                                <a href="tel:380665113379">
+                                <a class="tel_header" href="tel:380665113379">
                                     38 (066) 511 33 79
                                 </a>
                             </li>
@@ -41,12 +41,29 @@
 
                         <button class="btn_head">ЗАМОВИТИ ЗВОРОТНІЙ ДЗВІНОК</button>
                     </address>
+
+                    <div class="box_lang">
+                        <div class="lang_ua">
+                            <p class="text_lang">УКР</p>
+                            <svg class="svg_lang" width="11" height="11">
+                                <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
+                            </svg>
+                            
+                        </div>
+                        <div class="lang_eng desk">
+                            <p class="text_lang">ENG</p>
+                            <svg class="svg_lang" width="11" height="11">
+                                <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
+                            </svg>
+                            
+                        </div>
+                    </div>
                 </div>
 
                 <nav>
                     <ul class="list list_box">
                         <li class="list_flex">
-                            <a class="slidr_head" href="">Про компанію</a>
+                            <a class="slidr_head underline_head" href="">Про компанію</a>
                         </li>
                         <li class="list_flex">
                             <a class="slidr_head" href="">Продукція</a>
@@ -386,11 +403,9 @@
                             <div>
                                 <p class="servants_form">Продукти та послуги*</p>
                                 <div class="serv_input">Обрати</div>
-                                <button class="btn_menu" type="button" id="open">
-                                    <svg class="form_icon"  width="13" height="8">
+                                    <svg class="form_icon" id="open"  width="13" height="8">
                                         <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
                                     </svg>
-                                </button>
 
                                 <div id="menu" class="drop_menu closed">
                                     <ul class="ul_menu">
@@ -411,12 +426,12 @@
 
                         <div class="user_name">
                             <label for="user_name" class="name_form">Ваше ім'я*</label>
-                            <input type="name" name="name" id="user_name" class="name_input">
+                            <input type="name" name="name" id="user_name" class="name_input" aria-required="true">
                         </div>
 
                         <div class="user_tel">
                             <label for="user_tel" class="tel_form">Номер телефону*</label>
-                            <input type="tel" name="tel" id="user_tel" class="tel_input" required
+                            <input type="tel" name="tel" id="user_tel" class="tel_input" aria-required="true"
                                 placeholder="+38(0__)___-__-__">
                         </div>
 

@@ -72,9 +72,26 @@ img {
     align-items: center;
 }
 
+.tel_header {
+    color: #27303f;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 3s;
+}
+
+.tel_header:hover {
+    border-bottom: 1px solid #000;
+}
+
 .addres_tel {
+    font-family: 'Roboto', sans-serif;
     display: block;
     margin-left: 20px;
+    color: #27303f;
+    font-weight: 300;
+    font-size: 14px;
+
 }
 
 .btn_head {
@@ -105,6 +122,56 @@ img {
     background-color: #FFA500;
 }
 
+.box_lang {
+    display: flex;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0px 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    align-items: center;
+
+}
+
+.box_lang:hover {
+    border: 1px solid #000;
+}
+
+.lang_ua {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.lang_eng {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.desk {
+    display: none;
+}
+
+.text_lang {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.svg_lang {
+    display: inline-block;
+    fill: #1c3e55;
+    margin-left: 10px;
+}
+
 .list_box {
     display: flex;
     justify-content: space-between;
@@ -131,15 +198,21 @@ img {
     cursor: pointer;
 }
 
-.slidr_head:after {
+
+.underline_head {
+    position: relative;
+    transition: all 3s;
+}
+
+.underline_head::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 8px;
-    left: 0;
-    bottom: -100%;
     background-color: #f9c000;
-    transition: bottom .3s;
+    left: 0;
+    bottom: 0;
+
 }
 
 /* --------------------section_one --------------------*/
