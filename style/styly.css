@@ -251,7 +251,7 @@ img {
     font-family: 'Roboto';
     font-size: 60px;
     line-height: 1em;
-    /* overflow: hidden; */
+    overflow: hidden;
     font-weight: 400;
     color: #fff;
     width: 500px;
@@ -277,7 +277,7 @@ img {
 }
 
 
-.text_one2::before {
+.text_one::before {
     content: '';
     position: absolute;
     left: -100px;
@@ -376,6 +376,7 @@ img {
     font-weight: 600;
     margin-bottom: 22px;
     padding-top: 50px;
+    position: relative;
 }
 
 .section_flex {
@@ -391,6 +392,16 @@ img {
     padding: 0 0 0 110px;
     margin-bottom: 22px;
 
+}
+
+.text_section_two::before {
+    content: '';
+    position: absolute;
+    left: -100px;
+    top: 12px;
+    width: 180px;
+    background-color: #f9c000;
+    height: 2px;
 }
 
 .text_section {
@@ -1080,6 +1091,17 @@ img {
     padding-left: 100px;
     width: 500px;
     margin-bottom: 33px;
+    text-align: start;
+}
+
+.text_one2::before {
+    content: '';
+    position: absolute;
+    left: -100px;
+    top: 12px;
+    width: 180px;
+    height: 2px;
+    background-color: #f9c000;
 }
 
 .section_two {
