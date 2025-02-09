@@ -44,6 +44,12 @@ img {
     margin: auto;
 }
 
+.list {
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0;
+}
 /* ---------------------------header---------------------- */
 
 .container_wrap {
@@ -229,8 +235,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
-
-
 }
 
 .box_one {
@@ -261,6 +265,7 @@ img {
 
 .text_one {
     color: #fff;
+    text-align: start;
     font-size: 24px;
     font-weight: 300;
     line-height: 1.5em;
@@ -268,9 +273,11 @@ img {
     padding-left: 100px;
     width: 500px;
     margin-bottom: 33px;
+    
 }
 
-.text_one::before {
+
+.text_one2::before {
     content: '';
     position: absolute;
     left: -100px;
@@ -1032,6 +1039,111 @@ img {
 .slider_btn_right:hover {
     cursor: pointer;
 }
+
+/*--------------------- section_six2------------------ */
+
+.section_one2 {
+    width: 100%;
+    min-height: 840px;
+    background-color: #f0f2f4;
+    text-align: center;
+    background-image: url(../imeges/section1-bg-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.text_one2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5em;
+    position: relative;
+    padding-left: 100px;
+    width: 500px;
+    margin-bottom: 33px;
+}
+
+.section_two {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+
+}
+
+
+.section_flex_six2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.text_section {
+    font-family: 'Roboto';
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    position: relative;
+    padding: 0px 10px 20px 40px;
+    
+
+}
+
+
+.text_viem p {
+    margin: 1em 0;
+}
+
+.slider_clik_six2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.role_six2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.ul_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.slider_img_two img {
+    max-width: 100%;
+}
+
+.li_galary {
+    width: 15px;
+    height: 15px;
+    
+    
+    margin-left: 7px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    background-color: #006dca;
+}
+
+
 
 /* -----------------------------footer------------------------------- */
 
