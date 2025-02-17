@@ -924,7 +924,7 @@ img {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.04em;
     color: #fff;
@@ -1547,6 +1547,130 @@ img {
 
 /* ---------------section_eleven---------- */
 
+.eleven {
+    background-color: #f0f2f4;
+    padding: 50px 0px 50px 0px;
+}
+
+.box_section_eleven {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.title_eleven {
+    color: #293141;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 26px;
+    position: relative;
+}
+
+.title_eleven::after {
+    content: '';
+    position: absolute;
+    width: 66px;
+    height: 3px;
+    background-color: #006dca;
+    left: 0;
+    bottom: 0;
+}
+
+.title__eleven {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: 26px;
+}
+
+.text_even {
+    margin-bottom: 20px;
+}
+
+.box_form_eleven {
+    display: flex;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.servants_form_eleven {
+    color: #293141;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+}
+
+.serv_input_eleven {
+    width: 100%;
+    border: 1px solid #bbb;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2px 0px 4px;
+    transition: all .3s;
+}
+
+.user_name_eleven {
+    
+}
+
+.name_form_eleven {
+    color: #293141;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+}
+
+.name_input_eleven {
+    width: 100%;
+    height: 40px;
+}
+
+.user_tel_eleven {}
+
+.tel_form_eleven {
+    color: #293141;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+}
+
+.tel_input_eleven {
+    height: 40px;
+    width: 100%;
+}
+
+.eleven_texteria {}
+
+.click_btn_eleven {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9c000;
+    border-radius: 4px;
+    border: 2px solid #f9c000;
+    color: #000;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1em;
+    padding: 0 8px 0 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+    min-height: 40px;
+}
 
 /* -----------------------------footer------------------------------- */
 
