@@ -1591,13 +1591,15 @@ img {
 }
 
 .box_form_eleven {
-    display: flex;
     max-width: 300px;
     padding: 10px;
 }
 
 .form_modal_eleven {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 26px;
 }
 
 .servants_form_eleven {
@@ -1675,7 +1677,14 @@ img {
 
 }
 
-.eleven_texteria {}
+.user_textarea {
+    width: 306px;
+    padding: 0px 10px 20px 10px;
+}
+
+.eleven_texteria {
+    width: 100%;
+}
 
 .click_btn_eleven {
     display: inline-flex;
@@ -1697,6 +1706,7 @@ img {
     transition: all .3s;
     position: relative;
     min-height: 40px;
+    width: 75%;
 }
 
 /* -----------------------------footer------------------------------- */
