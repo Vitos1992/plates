@@ -1596,6 +1596,10 @@ img {
     padding: 10px;
 }
 
+.form_modal_eleven {
+    display: flex;
+}
+
 .servants_form_eleven {
     color: #293141;
     font-size: 16px;
@@ -1607,7 +1611,7 @@ img {
 .serv_input_eleven {
     width: 100%;
     border: 1px solid #bbb;
-    height: 40px;
+    height: 34px;
     border-radius: 4px;
     align-items: center;
     display: flex;
@@ -1617,6 +1621,7 @@ img {
 }
 
 .user_name_eleven {
+    margin-bottom: 18px;
     
 }
 
@@ -1630,10 +1635,18 @@ img {
 
 .name_input_eleven {
     width: 100%;
-    height: 40px;
+    height: 34px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    align-items: center;
+    padding: 0px 2px 0px 4px;
+    transition: all .3s;
 }
 
-.user_tel_eleven {}
+.user_tel_eleven {
+    margin-bottom: 18px;
+
+}
 
 .tel_form_eleven {
     color: #293141;
@@ -1644,8 +1657,22 @@ img {
 }
 
 .tel_input_eleven {
-    height: 40px;
     width: 100%;
+    height: 34px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    align-items: center;
+    padding: 0px 2px 0px 4px;
+    transition: all .3s;
+}
+
+.name_textarea {
+    color: #293141;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+
 }
 
 .eleven_texteria {}
