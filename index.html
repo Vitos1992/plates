@@ -42,7 +42,7 @@
                         <button class="btn_head">ЗАМОВИТИ ЗВОРОТНІЙ ДЗВІНОК</button>
                     </address>
 
-                    <div class="box_lang">
+                    <!-- <div class="box_lang">
                         <div class="lang_ua">
                             <p class="text_lang">УКР</p>
                             <svg class="svg_lang" width="11" height="11">
@@ -57,7 +57,18 @@
                             </svg>
 
                         </div>
+                    </div> -->
+
+                    <div class="lng">
+                        <a href="#" class="lng__link">УКР</a>
+                        <div class="lng__list_wrap">
+                            <div class="lng__list">
+                                <a href="#">ENG</a>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
 
                 <nav>
@@ -402,14 +413,14 @@
                         <div class="user_menu">
                             <div>
                                 <p class="servants_form">Продукти та послуги*</p>
-                                <div class="serv_input">Обрати</div>
-                                <svg class="form_icon" id="open" width="13" height="8">
+                                <div class="serv_input" data-modal-open>Обрати</div>
+                                <svg class="form_icon" width="13" height="8">
                                     <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
                                 </svg>
 
                                 <!----------------------------------------drop_menu  -->
 
-                                <div id="menu" class="drop_menu closed">
+                                <div class="drop_menu closed" data-modal>
                                     <ul class="ul_menu">
                                         <li class="list list_menu">Oбрати</li>
                                         <li class="list list_menu">П-С гранула</li>

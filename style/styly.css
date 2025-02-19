@@ -230,6 +230,92 @@ img {
     width: 100%;
 }
 
+
+.lng {
+    position: relative;
+
+    display: flex;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0px 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    align-items: center;
+}
+
+.lng:hover {
+    border: 1px solid #000;
+}
+
+.lng:hover .lng__list_wrap {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+}
+
+.lng__link {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    padding-right: 5px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lng__link:after {
+    position: absolute;
+    content: '';
+    top: calc(50% + 4px);
+    transform: translateY(-50%);
+    border: 1px solid #dcdcdc;
+    left: 100%;
+    border-top-color: 20px #000;
+}
+
+.lng__list_wrap {
+    position: absolute;
+    padding-top: 5px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 15px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    align-items: center;
+}
+
+.lng__list_wrap:hover {
+    border: 1px solid #000;
+    background-color: #bbb;
+}
+
+.lng__list {
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+}
+
+.lng__list a {
+    display: block;
+    padding-right: 5px;
+    padding: 5px 10xp;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
 /* --------------------section_one --------------------*/
 
 .section_one {
@@ -906,6 +992,7 @@ img {
     align-items: center;
     justify-content: space-between;
     outline: transparent;
+    cursor: pointer;
     
 }
 
@@ -1226,7 +1313,7 @@ img {
 
 .text_seven {
     color: #28303f;
-    width: 614px;
+    width: 600px;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.7em;
@@ -1234,16 +1321,6 @@ img {
     position: relative;
     max-height: 160px;
     overflow: hidden;
-}
-
-.text_span::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    color: #000;
-    left: 0;
-    bottom: 0;
 }
 
 .text_span {
@@ -1255,12 +1332,13 @@ img {
     cursor: pointer;
     margin-top: 10px;
     padding-bottom: 33px;
-    position: relative;
+    border-bottom: 2px solid #dcdcdc;
 }
 
 .box_down {
     display: flex;
     margin-bottom: 22px;
+    margin-top: 33px;
 }
 
 .box__down1 {
