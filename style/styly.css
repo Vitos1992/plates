@@ -1097,10 +1097,8 @@ img {
     text-transform: uppercase;
     cursor: pointer;
     transition: all .3s;
-    position: relative;
     width: 75%;
     min-height: 40px;
-    
 }
 
 .click_down_form:hover {
@@ -1982,11 +1980,10 @@ img {
 
 /* ---------------drop_menu */
 
+
 .drop_menu {
     width: 100%;
-    visibility: visible;
-    opacity: 1;
-    
+
 }
 
 .closed {
@@ -1994,6 +1991,8 @@ img {
 }
 
 .ul_menu {
+    transition: all .3s ease;
+    list-style-type: none;
     height: 300px;
     border: 1px solid #f9c000;
     border-radius: 2px;
@@ -2003,6 +2002,8 @@ img {
     overflow: auto;
     background-color: #fff;
     padding: 10px 14px;
+    position: absolute;
+    width: 92%;
 }
 
 .list_menu {
