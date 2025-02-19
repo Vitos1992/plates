@@ -1984,6 +1984,8 @@ img {
 
 .drop_menu {
     width: 100%;
+    visibility: visible;
+    opacity: 1;
     
 }
 
