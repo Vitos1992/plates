@@ -1249,9 +1249,6 @@ img {
     position: relative;
 }
 
-.img_box1_s {
-    clip-path: url(../imeges/stop.svg);
-}
 
 .svg__box2 {
     width: 64%;
