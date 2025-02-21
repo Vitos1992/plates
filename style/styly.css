@@ -1235,6 +1235,7 @@ img {
     background-color: #fff;
     position: relative;
     text-align: right;
+    border-top: 1px solid #dcdcdc;
 }
 
 .box_clip {
@@ -1251,6 +1252,7 @@ img {
 .box_clip1 {
     width: 64%;
     display: inline-block;
+    
 }
 
 .svg_box1_sev {
@@ -1289,8 +1291,8 @@ img {
 }
 
 .winner {
-    /* background: url(../imeges/stop.svg) no-repeat left; */
-    /* background-size: cover; */
+    /* background: url(../imeges/stopp.svg#icon-stop2) no-repeat left;
+    background-size: cover; */
     clip-path: polygon(0 0, 100% 0%, 77% 100%, 0% 100%);
 
     fill: #2a3343;
@@ -1301,14 +1303,6 @@ img {
     top: 0;
 }
 
-.clip__win_sev {
-    display: block;
-    width: 100%;
-    height: 100%;
-    fill: inherit;
-    stroke: inherit;
-
-}
 
 .box__title_seven {
     display: flex;
