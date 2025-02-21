@@ -290,8 +290,10 @@ img {
     flex-wrap: wrap;
     align-items: flex-start;
     padding-bottom: 180px;
-    padding-top: 15%;
+    padding-top: 10%;
     height: 700px;
+    position: absolute;
+    top: 0;
 }
 
 .titne_one {
@@ -1246,28 +1248,9 @@ img {
     width: 100%;
 } 
 
-.autom {
-    width: 1220px;
-    height: 680px;
-    background: url(../imeges/52c753b74171b094a40347adfbcfff37.jpg);
-    background-size: cover;
-    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
-}
-
-.winner {
-    background: url(../imeges/stop.svg) no-repeat left;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0%, 77% 100%, 0% 100%);
-    fill: #2a3343;
-}
-
-
-
-
-.svg__box1 {
+.box_clip1 {
     width: 64%;
     display: inline-block;
-    
 }
 
 .svg_box1_sev {
@@ -1278,31 +1261,42 @@ img {
     position: relative;
 }
 
-.svg__seven_box {
-    display: block;
+.autom {
+    background: url(../imeges/52c753b74171b094a40347adfbcfff37.jpg);
+    background-size: cover;
+    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
     width: 100%;
     height: 100%;
-    fill: inherit;
-    stroke: inherit;
+    left: 0;
+    top: 0;
 }
 
-.images {
-    clip-path: url(../imeges/stop.svg);
-}
-
-.svg__box2 {
+.box__left {
     width: 64%;
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.svg_box2_sev {
+.box__left_inner {
     overflow: hidden;
     width: 100%;
     height: 0;
     padding-bottom: 52.5%;
     position: relative;
+}
+
+.winner {
+    background: url(../imeges/stop.svg) no-repeat left;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 77% 100%, 0% 100%);
+    fill: #2a3343;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 
 
