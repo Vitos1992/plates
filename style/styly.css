@@ -50,6 +50,7 @@ img {
     text-decoration: none;
     padding: 0;
 }
+
 /* ---------------------------header---------------------- */
 
 .container_wrap {
@@ -161,7 +162,7 @@ img {
 .underline_head {
     position: relative;
     transition: all .3s;
-    
+
 }
 
 .underline_head::after {
@@ -172,9 +173,10 @@ img {
     height: 8px;
     left: 0;
     bottom: 0;
-    
+
 
 }
+
 .underline_head:hover::after {
     bottom: 0;
     background-color: #f9c000;
@@ -303,7 +305,7 @@ img {
     overflow: hidden;
     font-weight: 400;
     color: #fff;
-    width: 500px;
+    width: 600px;
     text-align: start;
     margin-bottom: 30px;
 }
@@ -322,7 +324,7 @@ img {
     padding-left: 100px;
     width: 500px;
     margin-bottom: 33px;
-    
+
 }
 
 
@@ -358,7 +360,7 @@ img {
     height: 56px;
     padding: 0 30px 0 30px;
 
-    
+
 }
 
 .down_bottom {
@@ -425,7 +427,7 @@ img {
     font-weight: 600;
     margin-bottom: 22px;
     padding-top: 50px;
-    
+
 }
 
 .section_flex {
@@ -462,7 +464,7 @@ img {
     line-height: 1.5em;
     position: relative;
     padding: 0px 10px 20px 40px;
-    
+
 
 }
 
@@ -481,7 +483,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .slick_role {
@@ -511,8 +513,8 @@ img {
 .li_galary {
     width: 15px;
     height: 15px;
-    
-    
+
+
     margin-left: 7px;
     position: relative;
     cursor: pointer;
@@ -671,7 +673,7 @@ img {
     position: absolute;
     left: 0;
     bottom: 0;
-    
+
 }
 
 /* -----------------------section_foor------------------- */
@@ -726,14 +728,14 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px 10px;
-    
+
 }
 
 .slider_foor {
     cursor: pointer;
     display: block;
-    
-    
+
+
 }
 
 .list_wrap {
@@ -947,7 +949,7 @@ img {
     justify-content: space-between;
     outline: transparent;
     cursor: pointer;
-    
+
 }
 
 .serv_input:hover,
@@ -1078,7 +1080,7 @@ img {
 }
 
 .slider_line_comp {
-    display: flex;  
+    display: flex;
     gap: 10px;
     height: 100%;
     width: 200px;
@@ -1179,7 +1181,7 @@ img {
     line-height: 1.5em;
     position: relative;
     padding: 0px 10px 20px 40px;
-    
+
 
 }
 
@@ -1192,7 +1194,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .role_six2 {
@@ -1220,8 +1222,8 @@ img {
 .li_galary {
     width: 15px;
     height: 15px;
-    
-    
+
+
     margin-left: 7px;
     position: relative;
     cursor: pointer;
@@ -1247,12 +1249,12 @@ img {
     position: absolute;
     height: 100%;
     width: 100%;
-} 
+}
 
 .box_clip1 {
     width: 64%;
     display: inline-block;
-    
+
 }
 
 .svg_box1_sev {
@@ -1266,7 +1268,7 @@ img {
 .autom {
     background: url(../imeges/52c753b74171b094a40347adfbcfff37.jpg) no-repeat #2a3343;
     background-size: cover;
-    clip-path: polygon(33% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1291,16 +1293,14 @@ img {
 }
 
 .winner {
-    /* background: url(../imeges/stopp.svg#icon-stop2) no-repeat left;
-    background-size: cover; */
-    clip-path: polygon(0 0, 100% 0%, 77% 100%, 0% 100%);
-
+    clip-path: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
     fill: #2a3343;
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
+    background-color: #2a3343;
 }
 
 
@@ -1428,7 +1428,7 @@ img {
 .down_price_seven {
     display: flex;
     flex-direction: column;
-    
+
     text-align: start;
     margin-left: 11px;
 }
@@ -1471,17 +1471,12 @@ img {
 
 /*------------------- section_eight---------------- */
 
-/* .section__eight {
-    width: 100%;
+.section_seven_box2 {
     background-color: #f0f2f4;
-    text-align: center;
-    background-image: url(../imeges/8819b230805dcdb5613f63b39dbf01b4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-} */
+    position: relative;
+    text-align: right;
+    border-top: 1px solid #dcdcdc;
+}
 
 .section_eight {
     padding: 50px 0px 50px 0px;
@@ -1496,10 +1491,23 @@ img {
     text-transform: uppercase;
     margin-bottom: 28px;
 }
+
 .eight {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.office {
+    background: url(../imeges/8819b230805dcdb5613f63b39dbf01b4.jpg) no-repeat #2a3343;
+    background-size: cover;
+    clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    fill: inherit;
 }
 
 .price {
@@ -1520,7 +1528,7 @@ img {
     border: 1px solid #006dca;
     background-color: #006dca;
     transition: all .3s;
-    
+
 }
 
 .price_eight:hover {
@@ -1537,7 +1545,7 @@ img {
     justify-content: center;
     cursor: pointer;
     gap: 20px;
-    
+
 }
 
 .down_price {
@@ -1576,6 +1584,13 @@ img {
 
 /* ------------------------section_ten*------------------------------------------ */
 
+.section_seven_box1 {
+    background-color: #fff;
+    position: relative;
+    text-align: right;
+    border-top: 1px solid #dcdcdc;
+}
+
 .title_section_ten {
     color: #293141;
     font-family: 'Roboto', Condensed;
@@ -1586,7 +1601,19 @@ img {
     font-weight: 600;
     margin-bottom: 22px;
     padding-top: 50px;
-    
+
+}
+
+.car {
+    background: url(../imeges/2cb172873b81e9ae8da7c065f6a830c2.jpg) no-repeat #2a3343;
+    background-size: cover;
+    clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    fill: inherit;
 }
 
 .ten {
@@ -1666,6 +1693,28 @@ img {
     padding: 50px 0px 50px 0px;
 }
 
+.box__left_hous {
+    background-image: url(../imeges/section13-bg-1.png);
+    clip-path: polygon(0 0, 100% 0%, 65% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+
+}
+
+.maps_eleven {
+    clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    fill: inherit;
+}
+
 .box_section_eleven {
     display: flex;
     justify-content: space-evenly;
@@ -1738,7 +1787,7 @@ img {
 
 .user_name_eleven {
     margin-bottom: 18px;
-    
+
 }
 
 .name_form_eleven {
@@ -1909,14 +1958,14 @@ img {
 .list_footer {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .list_footer_nav {
     display: flex;
     align-items: center;
     width: 50%;
-    
+
 }
 
 .footer_a {
@@ -2057,13 +2106,13 @@ img {
 
 /* ------------------------------slider------------------------ */
 
-.slick-slider{}
+.slick-slider {}
 
 /* Слайдер запущений */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {}
 
 /* Слайдер з крапками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {}
 
 /* Обмежувальна оболонка */
 .slick-list {
@@ -2071,52 +2120,51 @@ img {
 }
 
 /* Стрічка слайдів */
-.slick-track{
+.slick-track {
     display: flex;
     align-items: flex-start;
-    
+
 }
 
 /* Слайд */
-.slick-slide{
+.slick-slide {
     min-width: 0;
 }
 
 /* Слайд активний (показується) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {}
 
 /* Слайд основний */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {}
 
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {}
 
 /* Клонований слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {}
 
 /* Стрілка */
-.slick-arrow {
-}
+.slick-arrow {}
 
 /* Стрілка вліво */
-.slick-arrow.slick-prev{}
+.slick-arrow.slick-prev {}
 
 /* Стрілка вправо */
-.slick-arrow.slick-next{}
+.slick-arrow.slick-next {}
 
 /* Стрілка не активна */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {}
 
 /* Точки (буліти) */
-.slick-dots{}
+.slick-dots {}
 
-.slick-dots li{}
+.slick-dots li {}
 
 /* Активна точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {}
 
 /* Елемент точки */
-.slick-dots li button{}
+.slick-dots li button {}
 
 /* ---------------section_two------------ */
 
@@ -2134,23 +2182,23 @@ img {
     width: 30px;
     height: 60px;
     display: none;
-    
+
 }
 
 
-.slick_role .slick-dots{
+.slick_role .slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .slick_role .slick-dots li {
     list-style: none;
     margin: 0px 10px;
-} 
+}
 
-.slick_role .slick-dots li button{
+.slick_role .slick-dots li button {
     font-size: 0;
     width: 15px;
     height: 15px;
@@ -2158,9 +2206,9 @@ img {
     border-radius: 50%;
 }
 
-.slick_role .slick-dots li.slick-active button{
-	background-color: #f9c000;
-	border: 1px solid #fff;
+.slick_role .slick-dots li.slick-active button {
+    background-color: #f9c000;
+    border: 1px solid #fff;
 }
 
 /* --------------------------slider section_six */
@@ -2186,7 +2234,7 @@ img {
     z-index: 10;
     font-size: 0;
     width: 40px;
-    height: 40px; 
+    height: 40px;
     border: none;
     cursor: pointer;
 }
@@ -2195,16 +2243,16 @@ img {
     fill: #006dca;
 }
 
-.slider_row .slick-dots{
+.slider_row .slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .slider_row .slick-arrow.slick-prev {
     left: 0;
-    background: url(../imeges/chevron-thin-left.svg)  0 / 100% no-repeat;
+    background: url(../imeges/chevron-thin-left.svg) 0 / 100% no-repeat;
 
 }
 
@@ -2214,7 +2262,7 @@ img {
 }
 
 
- /* -----------------section foor */
+/* -----------------section foor */
 
 .slider_line {
     position: relative;
@@ -2233,23 +2281,23 @@ img {
     z-index: 10;
     font-size: 0;
     width: 36px;
-    height: 36px; 
+    height: 36px;
     border: none;
     cursor: pointer;
-    
+
 }
 
 
-.slider_line .slick-dots{
+.slider_line .slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .slider_line .slick-arrow.slick-prev {
     left: 0;
-    background: url(../imeges/chevron-thin-left.svg)  0 / 100% no-repeat;
+    background: url(../imeges/chevron-thin-left.svg) 0 / 100% no-repeat;
 }
 
 .slider_line .slick-arrow.slick-prev:hover {
@@ -2258,5 +2306,5 @@ img {
 
 .slider_line .slick-arrow.slick-next {
     right: 0;
-    background: url(../imeges/chevron-thin-right.svg)  0 / 100% no-repeat;
+    background: url(../imeges/chevron-thin-right.svg) 0 / 100% no-repeat;
 }
