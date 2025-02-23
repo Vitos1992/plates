@@ -171,14 +171,15 @@
 
                     <form action="" class="form_modal">
                         <div class="user_menu">
-                            <div>
-                                <p class="servants_form">Продукти та послуги*</p>
-                                <div class="serv_input">Обрати</div>
-                                <svg class="form_icon" id="open" width="13" height="8">
-                                    <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
-                                </svg>
+                            <p class="servants_form">Продукти та послуги*</p>
+                            <div class="serv_input" data-modal-open>Обрати</div>
+                            <svg class="form_icon" width="13" height="8">
+                                <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
+                            </svg>
 
-                                <div id="menu" class="drop_menu closed">
+                            <!----------------------- ---------------drop_menu---------------- -->
+                            <div class="closed" data-modal>
+                                <div class="drop_menu">
                                     <ul class="ul_menu">
                                         <li class="list list_menu">Oбрати</li>
                                         <li class="list list_menu">П-С гранула</li>
@@ -207,8 +208,7 @@
                         </div>
 
                         <button class="click_down_form">ЗАЛИШИТИ ЗАЯВКУ</button>
-                </div>
-                </form>
+                    </form>
 
             </div>
         </section>
