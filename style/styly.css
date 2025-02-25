@@ -351,7 +351,6 @@ img {
     font-size: 16px;
     text-align: center;
     line-height: 1em;
-    padding: 0 8px 0 8px;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
@@ -424,7 +423,7 @@ img {
     line-height: 1em;
     max-height: 2em;
     overflow: hidden;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 22px;
     padding-top: 50px;
 
