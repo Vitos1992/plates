@@ -11,7 +11,7 @@
     }
 
 
-    /* header */
+    /* ------------------header */
 
     .container_wrap {
         display: flex;
@@ -26,20 +26,68 @@
         display: none;
     }
 
-    /* section_one */
+    /* ------------------section_one */
 
     .section_one {
+        min-width: min-content;
         background-color: #293141;
         width: 100%;
         background-image: none;
+        padding-bottom: 0px;
+        height: 295px;
 
     }
 
-    /* section_two */
+    .box_one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .titne_one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0px 16px 0px;
+        margin-bottom: 0px;
+    }
+
+    .text_one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 16px;
+    }
+
+    .text_one::before {
+        display: none;
+    }
+
+    .btn_prais {
+        margin-bottom: 16px;
+    }
+
+    /* ------------------section_two */
 
     .section_flex {
         display: flex;
         flex-direction: column;
+    }
+
+    .section_two {
+        min-height: min-content;
+        background-image: none;
+    }
+
+
+    /* ------------------section_thre */
+
+    .section_thre {
+        min-width: min-content;
+        background-color: #293141;
+        background-image: none;
     }
 
 
@@ -59,7 +107,7 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 767px;
+        min-width: 767px;
         padding-left: 15px;
         padding-right: 15px;
         margin: auto;
@@ -125,7 +173,7 @@
     /* ----------------section_one------------- */
 
     .section_one {
-        width: 100%;
+        min-width: min-content;
         min-height: 0px;
         background-color: #f0f2f4;
         text-align: center;
@@ -158,7 +206,13 @@
 
     /* ----------------------section_two------ */
 
+    .two {
+        min-width: min-content;
+
+    }
+
     .section_two {
+        
         width: 100%;
         height: 100%;
         background-image: none;
@@ -195,6 +249,7 @@
     /* ----------------section_thre----------- */
 
     .section_thre {
+        min-width: min-content;
         display: block;
         min-height: 400px;
         
@@ -237,11 +292,17 @@
     /* ----------------section_five-------------- */
 
     .section_five {
+        min-width: min-content;
         padding: 40px 0px 40px 0px;
     }
 
     .form_title {
         font-size: 30px;
+    }
+
+    .form_flex {
+        display: flex;
+        justify-content: space-around;
     }
 
     .form_text {
@@ -285,6 +346,10 @@
 
     /* --------------- footer----------------------- */
 
+    .footer {
+        min-width: min-content;
+    }
+
     .footer_cont {
         padding-bottom: 40px;
     }
@@ -324,14 +389,49 @@
 
 /*-------------------- Desktop------------------- */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
 
     .container {
-        width: 1300px;
+        min-width: 1200px;
 
     }
 
-    /*------------------- header------------------ */
+    /*------------------- header---------- */
+
+    .addres_tel {
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+
+    .btn_head {
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .lng {
+        margin-left: 20px;
+    }
+
+
+    .list_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    .list_flex {
+        display: block;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .slidr_head {
+        display: block;
+        overflow: hidden;
+        padding: 0px 0px 33px 0px;
+        font-size: 20px;
+    }
 
     /*______________ section_one------------- */
 
@@ -380,7 +480,13 @@
 
     /* ----------------section_two------------- */
 
+    .title_section_two {
+        font-size: 48px;
+    }
+
     .text_section_two {
+        font-size: 24px;
+        margin-bottom: 22px;
         padding: 0 0 0 110px
     }
 
