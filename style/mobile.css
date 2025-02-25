@@ -1,3 +1,60 @@
+
+/*  */
+
+@media screen and (min-width: 200px) {
+
+    .container {
+        min-width: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+    }
+
+
+    /* header */
+
+    .container_wrap {
+        display: flex;
+
+    }
+
+    .box_head {
+        display: none;
+    }
+
+    .list_box {
+        display: none;
+    }
+
+    /* section_one */
+
+    .section_one {
+        background-color: #293141;
+        width: 100%;
+        background-image: none;
+
+    }
+
+    /* section_two */
+
+    .section_flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 /* --------Table-------------- */
 
 @media screen and (min-width: 768px) {
