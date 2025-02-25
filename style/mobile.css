@@ -1,0 +1,416 @@
+/* --------Table-------------- */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 767px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: auto;
+    }
+
+    /* ------------------------header--------------- */
+
+    .box_head {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .adderss_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .addres_tel {
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .btn_head {
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .underline_head {
+        display: block;
+    }
+
+    .underline_head::after {
+        display: block;
+    }
+
+    .lng {
+        margin-left: 10px;
+    }
+
+
+    .list_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    .list_flex {
+        display: block;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .slidr_head {
+        display: block;
+        overflow: hidden;
+        padding: 0px 0px 10px 0px;
+        font-size: 18px;
+    }
+
+    /* ----------------section_one------------- */
+
+    .section_one {
+        width: 100%;
+        min-height: 0px;
+        background-color: #f0f2f4;
+        text-align: center;
+        background-image: url(../imeges/section1-bg-1.png);
+        background-size: cover;
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0px;
+    }
+
+    .box_one {
+        padding-bottom: 0;
+    }
+
+    .titne_one {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .text_one {
+        padding-left: 0px;
+    }
+
+    .text_one::before {
+        display: none;
+    }
+
+    /* ----------------------section_two------ */
+
+    .section_two {
+        width: 100%;
+        height: 100%;
+        background-image: none;
+
+    }
+
+    .section_flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title_section_two {
+        font-size: 30px;
+    }
+
+    .text_section_two {
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .text_section_two::before {
+        display: none;
+    }
+
+    .viem_text {
+        margin-right: 0px;
+    }
+
+    .btm_box {
+        margin-bottom: 20px;
+    }
+
+    /* ----------------section_thre----------- */
+
+    .section_thre {
+        display: block;
+        min-height: 400px;
+        
+    }
+
+    .blok_thre {
+        padding: 50px 0px 50px 0px;
+
+    }
+
+    .title_thre {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .svg_thre {
+        width: 56px;
+        height: 56px;
+    }
+
+    .title_name {
+        margin-bottom: 10px;
+    }
+
+    .text_thre {
+        margin-bottom: 10px;
+    }
+
+    /* -------section_foor------------------- */
+
+    .title_foor {
+        font-size: 25px;
+    }
+
+    .click_down {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    /* ----------------section_five-------------- */
+
+    .section_five {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .form_title {
+        font-size: 30px;
+    }
+
+    .form_text {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .form_text::before {
+        display: none;
+    }
+
+    .serv_input {
+        max-width: 250px;
+        height: 30px;
+        font-size: 16px;
+        color: black;
+    }
+
+    .name_input {
+        max-width: 250px;
+        height: 30px;
+    }
+
+    .tel_input {
+        max-width: 250px;
+        height: 30px;
+        
+    }
+
+    /* ---------------drop_menu */
+
+    .ul_menu {
+        width: 89.5%;
+        max-height: 200px;
+    }
+
+    .list_menu {
+        font-size: 16px;
+    }
+
+
+    /* --------------- footer----------------------- */
+
+
+}
+
+
+/*-------------------- Desktop------------------- */
+
+@media screen and (min-width: 1300px) {
+
+    .container {
+        max-width: 1300px;
+
+    }
+
+    /*------------------- header------------------ */
+
+    /*______________ section_one------------- */
+
+    .section_one {
+        width: 100%;
+        min-height: 840px;
+        background-color: #f0f2f4;
+        text-align: center;
+        background-image: url(../imeges/section1-bg-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+    }
+
+
+    /*-------------------- section_two------------ */
+
+    .section_two {
+        width: 100%;
+        height: 535px;
+        background-image: url(../imeges/section2-bg-1.png);
+        background-size: 50% 100%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+
+    }
+
+    .titne_one {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .text_one {
+        padding-left: 100px;
+    }
+
+    .text_one::before {
+        display: block;
+    }
+
+    /* ----------------section_two------------- */
+
+    .text_section_two {
+        padding: 0 0 0 110px
+    }
+
+    .text_section_two::before {
+        display: block;
+    }
+
+    .section_flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .viem_text {
+        margin-right: 100px;
+    }
+
+    .btm_box {
+        margin-bottom: 0px;
+    }
+
+    /* -----------------section_thre----------------- */
+
+
+    .section_thre {
+        width: 100%;
+        min-height: 708px;
+        text-align: center;
+        background-image: url(../imeges/section4-bg-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blok_thre {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .title_thre {
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+
+    .svg_thre {
+        display: block;
+    }
+
+    .title_name {
+        margin-bottom: 20px;
+    }
+
+    .text_thre {
+        margin-bottom: 34px;
+    }
+
+    /* -------section_foor------------------- */
+
+    .title_foor {
+        font-size: 36px;
+    }
+
+    .click_down {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    /*---------------------- section_five -----------------------*/
+
+
+    .section_five {
+        padding: 90px 0px 90px 0px;
+    }
+
+    .form_title {
+        font-size: 48px;
+    }
+
+    .form_text {
+        font-size: 26px;
+        padding-left: 100px;
+    }
+
+    .form_text::before {
+        display: block;
+    }
+
+    .serv_input {
+        max-width: 352px;
+        height: 40px;
+        font-size: 22px;
+        color: black;
+    }
+
+    .name_input {
+        max-width: 352px;
+        height: 40px;
+    }
+
+    .tel_input {
+        max-width: 352px;
+        height: 40px;
+        
+    }
+
+    /* ---------------drop_menu */
+
+    .ul_menu {
+        width: 92%;
+        max-height: 300px;
+    }
+
+    .list_menu {
+        font-size: 22px;
+    }
+
+
+
+}
