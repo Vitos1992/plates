@@ -228,6 +228,39 @@
 
     /* --------------- footer----------------------- */
 
+    .footer_cont {
+        padding-bottom: 40px;
+    }
+
+    .logo_footer {
+        display: block;
+        max-width: 120px;
+    }
+
+    .text_icon {
+        max-width: 120px;
+    }
+
+    .list_footer {
+        max-width: 220px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list_footer_nav {
+        width: 50%;
+    }
+
+    .footer_map {
+        max-width: 150px;
+        height: 70px;
+    }
+
+    .nav_footer {
+        min-width: 180px;
+
+    }
+
 
 }
 
