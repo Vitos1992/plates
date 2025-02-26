@@ -358,6 +358,7 @@ img {
     position: relative;
     height: 56px;
     padding: 0 30px 0 30px;
+    text-decoration: none;
 
 
 }
@@ -442,7 +443,6 @@ img {
     padding: 0 0 0 110px;
     margin-bottom: 22px;
     position: relative;
-
 }
 
 .text_section_two::before {
@@ -463,8 +463,6 @@ img {
     line-height: 1.5em;
     position: relative;
     padding: 0px 10px 20px 40px;
-
-
 }
 
 .viem_text {
@@ -588,6 +586,7 @@ img {
     height: 56px;
     width: 320px;
     padding: 0 15px 0 15px;
+    text-decoration: none;
 }
 
 /* ------------------------section_thre -------------------*/
@@ -989,6 +988,8 @@ img {
 .list_menu:hover {
     color: #006dca;
 }
+
+/*  */
 
 .serv_input:hover,
 .name_input:hover,
@@ -2171,7 +2172,6 @@ img {
 
 .slick_role {
     position: relative;
-    /* padding: 0px 60px ; */
 }
 
 .slick_role .slick-arrow {
@@ -2191,12 +2191,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 
 }
 
 .slick_role .slick-dots li {
     list-style: none;
-    margin: 0px 10px;
+    margin: 10px 10px;
 }
 
 .slick_role .slick-dots li button {
