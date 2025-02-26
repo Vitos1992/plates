@@ -125,14 +125,16 @@
 
     .title_section_two {
         text-align: center;
-        font-size: 24px;
+        /* font-size: 24px; */
+        font-size: calc(24px + 24 * (100vw / 1300));
     }
 
     .text_section_two {
-        font-size: 20px;
+        /* font-size: 20px; */
         text-align: center;
         padding-left: 0px;
         font-weight: 300;
+        font-size: calc(18px + 6 * (100vw / 1300));
     }
 
     .text_section_two::before {
@@ -147,6 +149,7 @@
     }
 
     .viem_text {
+        margin-left: 0px;
         margin-right: 0px;
     }
 

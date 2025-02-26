@@ -8,6 +8,7 @@ $(".slick_role").slick({
     autoplay: true,
     autoplaySpeed: 500,
     pauseOnHover: true,
+    variableWidth: true,
 });
 });
 

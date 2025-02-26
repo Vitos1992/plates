@@ -38,7 +38,7 @@ img {
 
 
 .container {
-    width: 100%;
+    width: 1300px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -57,6 +57,31 @@ img {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+}
+
+.burger_btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    position: relative;
+}
+
+.burger_btn span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #006dca;
+    left: 5px;
+}
+
+.burger_btn span:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+.burger_btn span:nth-child(3) {
+    transform: translateY(10px);
 }
 
 .logo_header {
@@ -133,7 +158,7 @@ img {
 
 .list_box {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .list_flex {
@@ -141,7 +166,7 @@ img {
     overflow: hidden;
     display: block;
     transition: all 3s;
-    padding: 0px 10px 33px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 
@@ -1973,7 +1998,7 @@ img {
 .footer_cont {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     position: relative;
 }
 
