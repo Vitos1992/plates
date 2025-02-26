@@ -1952,7 +1952,7 @@ img {
 .logo_footer {
     margin-bottom: 10px;
     display: block;
-    max-width: 150px;
+    min-width: 150px;
 }
 
 .text_icon {
