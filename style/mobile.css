@@ -1,11 +1,9 @@
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 200px),
+(min-width: 428px)  {
 
     .container {
-        min-width: 200px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: auto;
+        min-width: 428px;
     }
 
 
@@ -390,10 +388,9 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 766px;
         padding-left: 15px;
         padding-right: 15px;
-        margin: auto;
     }
 
     /* ------------------------header--------------- */
