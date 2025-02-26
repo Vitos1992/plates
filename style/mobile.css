@@ -11,6 +11,7 @@
 
     .container_wrap {
         display: flex;
+        min-width: max-content;
 
     }
 
@@ -112,21 +113,23 @@
     .section_flex {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .section_two {
         min-height: min-content;
         background-image: none;
+        padding: 0px;
     }
 
 
     .title_section_two {
         text-align: center;
-        font-size: 52px;
+        font-size: 24px;
     }
 
     .text_section_two {
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
         padding-left: 0px;
         font-weight: 300;
@@ -138,7 +141,7 @@
 
     .text_section {
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 14px;
         font-weight: 400;
         padding: 0px 50px 20px 50px;
     }
@@ -156,17 +159,17 @@
 
     .btn_two {
         display: inline-flex;
-        width: 35%;
-        height: 100px;
-        font-size: 28px;
+        width: 30%;
+        height: 46px;
+        font-size: 14px;
     }
 
     .btnTwo {
         display: flex;
-        width: 45%;
-        height: 100px;
+        width: 40%;
+        height: 46px;
         margin-bottom: 20px;
-        font-size: 28px;
+        font-size: 14px;
     }
 
     .slick_role .slick-dots {
@@ -186,6 +189,7 @@
         min-width: min-content;
         background-color: #293141;
         background-image: none;
+        min-height: 505px;
     }
 
     .blok_thre {
@@ -197,26 +201,27 @@
     }
 
     .title_thre_box {
-        min-width: 500px;
+        min-width: 150px;
     }
 
     .title_thre {
         text-align: center;
-        font-size: 48px;
+        font-size: 24px;
+        margin-bottom: 16px;
     }
 
     .svg_thre {
-        width: 35%;
-        height: 35%;
+        width: 56px;
+        height: 56px;
         margin-bottom: 10px;
     }
 
     .title_name {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     .text_thre {
-        font-size: 20px;
+        font-size: 12px;
     }
 
 
@@ -242,12 +247,13 @@
     }
 
     .form_title {
+        font-size: 24px;
         color: #fff;
     }
 
     .form_text {
+        font-size: 16px;
         text-align: center;
-        min-width: 750px;
         padding: 0px;
         color: #fff;
     }

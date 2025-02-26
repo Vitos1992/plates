@@ -16,6 +16,7 @@ $(".slider_row").slick({
     adaptiveHeight: true,
     speed: 1000,
     easing: "ease",
+    variableWidth: true,
 });
 });
 
@@ -27,6 +28,7 @@ $(".slider_line").slick({
     adaptiveHeight: true,
     speed: 1000,
     easing: "ease",
+    variableWidth: true,
 });
 });
 
