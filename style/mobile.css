@@ -4,6 +4,8 @@
 
     .container {
         min-width: 200px;
+        padding: 0px;
+        margin: auto;
     }
 
 
