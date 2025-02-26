@@ -5,6 +5,9 @@ $(".slick_role").slick({
     adaptiveHeight: true,
     speed: 1000,
     easing: "ease",
+    autoplay: true,
+    autoplaySpeed: 500,
+    pauseOnHover: true,
 });
 });
 
