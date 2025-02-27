@@ -89,6 +89,16 @@ img {
     cursor: pointer;
 }
 
+.mobil_header {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #f9c000;
+    background-color: #f9c000;
+    fill: #fff;
+}
+
 .adderss_list {
     display: flex;
     justify-content: space-between;

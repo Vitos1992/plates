@@ -14,7 +14,24 @@
     .container_wrap {
         display: flex;
         min-width: max-content;
+        align-items: center;
+        justify-content: center;
+        
 
+
+    }
+
+    .burger_btn {
+        display: block;
+    }
+
+    .logo_header {
+        width: 100px;
+        padding: 10px 100px 10px 100px;
+    }
+
+    .mobil_header {
+        display: block;
     }
 
     .box_head {
@@ -45,9 +62,7 @@
 
     }
 
-    .logo_header {
-        width: 100px;
-    }
+    
 
     .titne_one {
         display: flex;
@@ -181,14 +196,17 @@
     }
 
     .slider_clik {
-        width: 350px;
+        width: calc(300px + 380 *(100vw / 1300));
+        /* width: 350px; */
         height: auto;
     
     }
     
     .slick_role {
-        width: 320px;
-        height: 300px;
+        width: calc(300px + 296 *(100vw / 1300));
+        height: calc(280px + 360 *(100vw / 1300));
+        /* width: 320px; */
+        /* height: 300px; */
 
     }
 
@@ -217,12 +235,12 @@
     }
 
     .title_thre_box {
+        margin-left: 10px;
         width: 100%;
     }
 
     .title_thre {
         text-align: center;
-        /* font-size: 24px; */
         margin-bottom: 16px;
         font-size: calc(24px + 24 * (100vw / 1300));
     }
@@ -235,14 +253,13 @@
     }
 
     .title_name {
-        /* font-size: 16px; */
         font-size: calc(16px + 4 * (100vw / 1300));
 
         
     }
 
     .text_thre {
-        /* font-size: 12px; */
+        margin-bottom: 15px;
         font-size: calc(12px + 6 * (100vw / 1300));
 
     }
@@ -270,14 +287,12 @@
     }
 
     .form_title {
-        /* font-size: 24px; */
         color: #fff;
         font-size: calc(24px + 24 * (100vw / 1300));
 
     }
 
     .form_text {
-        /* font-size: 16px; */
         text-align: center;
         padding: 0px;
         color: #fff;
@@ -308,7 +323,6 @@
     .click_down_form {
         width: 98.5%;
         min-height: 60px;
-        /* font-size: 20px; */
         font-weight: 700;
         font-size: calc(20px - 6 * (100vw / 1300));
 
@@ -332,7 +346,6 @@
     }
 
     .btn_up {
-        /* font-size: 22px; */
         font-size: calc(22px - 8 * (100vw / 1300));
 
     }
@@ -349,7 +362,7 @@
     }
 
     .logo_footer {
-        width: 250px;
+        width: 160px;
         margin-bottom: 20px;
     }
 
@@ -375,25 +388,22 @@
     }
 
     .footer_map {
-        width: 400px;
+        min-width: 260px;
     }
 
     .title_footer {
-        /* font-size: 26px; */
         margin-bottom: 10px;
         font-size: calc(26px - 10 * (100vw / 1300));
 
     }
 
     .text_item {
-        /* font-size: 26px; */
         font-size: calc(26px - 10 * (100vw / 1300));
 
 
     }
 
     .item_foter {
-        /* font-size: 26px; */
         font-size: calc(26px - 10 * (100vw / 1300));
 
     }
@@ -450,6 +460,18 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+    }
+
+    .burger_btn {
+        display: none;
+    }
+
+    .logo_header {
+        width: 120px;
+    }
+
+    .mobil_header {
+        display: none;
     }
 
 
@@ -830,8 +852,16 @@
         padding-top: 10px;
     }
 
+    .burger_btn {
+        display: none;
+    }
+
     .logo_header {
         width: 150px;
+    }
+
+    .mobil_header {
+        display: none;
     }
 
     .addres_tel {
