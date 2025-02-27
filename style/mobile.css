@@ -50,12 +50,13 @@
     }
 
     .titne_one {
-        font-size: 34px;
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         padding: 16px 0px 16px 0px;
         margin-bottom: 0px;
+        font-size: calc(32px + 28 * (100vw / 1300));
     }
 
     .text_one {
@@ -65,7 +66,8 @@
         align-items: center;
         padding-left: 0;
         margin-bottom: 30px;
-        font-size: 24px;
+        /* font-size: 24px; */
+        font-size: calc(24px + 0 * (100vw / 1300));
     }
 
     .text_one::before {
@@ -76,10 +78,9 @@
         font-family: 'RobotoCondensed';
         min-width: 35%;
         height: 30px;
-        font-size: 16px;
         padding: 10px 20px 10px 20px;
         font-weight: 700;
-        margin-bottom: 30px;
+        font-size: calc(16px + 0 * (100vw / 1300));
     }
 
     .down_bottom {
@@ -92,6 +93,7 @@
     }
 
     .down_svg {
+        bottom: -20px;
         width: 33px;
         height: 33px;
     }
@@ -102,7 +104,9 @@
     }
 
     .text_down {
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: calc(20px - 6 * (100vw / 1300));
+
 
     }
 
@@ -127,12 +131,10 @@
 
     .title_section_two {
         text-align: center;
-        /* font-size: 24px; */
         font-size: calc(24px + 24 * (100vw / 1300));
     }
 
     .text_section_two {
-        /* font-size: 20px; */
         text-align: center;
         padding-left: 0px;
         font-weight: 300;
@@ -145,9 +147,10 @@
 
     .text_section {
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        /* font-size: 14px; */
         font-weight: 400;
         padding: 0px 50px 20px 50px;
+        font-size: calc(14px + 2 * (100vw / 1300));
     }
 
     .viem_text {
@@ -177,13 +180,21 @@
         font-size: 14px;
     }
 
-    .slick_role .slick-dots {
-        margin-top: 15px;
+    .slider_clik {
+        width: 350px;
+        height: auto;
+    
+    }
+    
+    .slick_role {
+        width: 320px;
+        height: 300px;
+
     }
 
+
     .slick_role .slick-dots li button {
-        width: 20px;
-        height: 20px;
+        display: none;
         
     }
 
@@ -206,27 +217,34 @@
     }
 
     .title_thre_box {
-        min-width: 150px;
+        width: 100%;
     }
 
     .title_thre {
         text-align: center;
-        font-size: 24px;
+        /* font-size: 24px; */
         margin-bottom: 16px;
+        font-size: calc(24px + 24 * (100vw / 1300));
     }
 
     .svg_thre {
         width: 56px;
         height: 56px;
         margin-bottom: 10px;
+        
     }
 
     .title_name {
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: calc(16px + 4 * (100vw / 1300));
+
+        
     }
 
     .text_thre {
-        font-size: 12px;
+        /* font-size: 12px; */
+        font-size: calc(12px + 6 * (100vw / 1300));
+
     }
 
 
@@ -252,15 +270,19 @@
     }
 
     .form_title {
-        font-size: 24px;
+        /* font-size: 24px; */
         color: #fff;
+        font-size: calc(24px + 24 * (100vw / 1300));
+
     }
 
     .form_text {
-        font-size: 16px;
+        /* font-size: 16px; */
         text-align: center;
         padding: 0px;
         color: #fff;
+        font-size: calc(16px + 10 * (100vw / 1300));
+
     }
 
     .form_text::before {
@@ -286,8 +308,10 @@
     .click_down_form {
         width: 98.5%;
         min-height: 60px;
-        font-size: 20px;
+        /* font-size: 20px; */
         font-weight: 700;
+        font-size: calc(20px - 6 * (100vw / 1300));
+
     }
 
     /* ---------------drop_menu */
@@ -308,7 +332,9 @@
     }
 
     .btn_up {
-        font-size: 22px;
+        /* font-size: 22px; */
+        font-size: calc(22px - 8 * (100vw / 1300));
+
     }
 
     .btn_svg {
@@ -353,17 +379,23 @@
     }
 
     .title_footer {
-        font-size: 26px;
+        /* font-size: 26px; */
         margin-bottom: 10px;
+        font-size: calc(26px - 10 * (100vw / 1300));
+
     }
 
     .text_item {
-        font-size: 26px;
+        /* font-size: 26px; */
+        font-size: calc(26px - 10 * (100vw / 1300));
+
 
     }
 
     .item_foter {
-        font-size: 26px;
+        /* font-size: 26px; */
+        font-size: calc(26px - 10 * (100vw / 1300));
+
     }
 
 
@@ -374,14 +406,18 @@
     }
 
     .text_blok {
-        font-size: 22px;
+        /* font-size: 22px; */
         color: #ebebeb;
+        font-size: calc(22px - 10 * (100vw / 1300));
+
     }
 
     .footer_blok_n {
-        font-size: 22px;
+        /* font-size: 22px; */
         text-decoration: none;
         color: #ebebeb;
+        font-size: calc(22px - 10 * (100vw / 1300));
+
 
     }
 
@@ -789,6 +825,14 @@
     }
 
     /*------------------- header---------- */
+
+    .container_wrap {
+        padding-top: 10px;
+    }
+
+    .logo_header {
+        width: 150px;
+    }
 
     .addres_tel {
         margin-left: 10px;
