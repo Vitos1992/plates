@@ -509,7 +509,6 @@ img {
 }
 
 .slider_clik {
-    /* width: 680px; */
     width: 290px;
     height: 100%;
     position: relative;
@@ -520,7 +519,6 @@ img {
 }
 
 .slick_role {
-    /* width: 596px; */
     width: 270px;
     position: relative;
     overflow: hidden;
