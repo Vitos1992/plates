@@ -63,7 +63,7 @@ img {
     display: none;
     width: 40px;
     height: 40px;
-    background-color: red;
+    background-color: transparent;
     border: none;
     position: relative;
 }
@@ -509,7 +509,8 @@ img {
 }
 
 .slider_clik {
-    width: 680px;
+    /* width: 680px; */
+    width: 290px;
     height: 100%;
     position: relative;
     display: flex;
@@ -519,7 +520,8 @@ img {
 }
 
 .slick_role {
-    width: 596px;
+    /* width: 596px; */
+    width: 270px;
     position: relative;
     overflow: hidden;
     left: 0;
