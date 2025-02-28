@@ -1987,7 +1987,7 @@ img {
 .logo_footer {
     margin-bottom: 10px;
     display: block;
-    min-width: 150px;
+    width: 150px;
 }
 
 .text_icon {
