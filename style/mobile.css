@@ -794,6 +794,7 @@
     }
 
     .form_modal {
+        margin-right: 0px;
         width: auto;
     }
 
@@ -865,7 +866,7 @@
     }
 
     .logo_mob {
-        max-width: 120px;
+        width: 120px;
         display: flex;
         flex-direction: column;
     }
@@ -876,7 +877,7 @@
     }
 
     .list_footer {
-        max-width: 250px;
+        width: 250px;
         display: flex;
         flex-wrap: wrap;
         gap: 20px 0px;
@@ -914,14 +915,12 @@
     }
 
     .text_blok {
-        /* font-size: 22px; */
         color: #ebebeb;
         font-size: calc(12px + 4 * (100vw / 1300));
 
     }
 
     .footer_blok_n {
-        /* font-size: 22px; */
         text-decoration: none;
         color: #ebebeb;
         font-size: calc(12px + 4 * (100vw / 1300));
@@ -1252,20 +1251,42 @@
 
 
     .section_five {
-        padding: 90px 0px 90px 0px;
+        background-image: url(../imeges/b5493f24c2eabd85724542307f7c7e83.png);
+        border-top: 2px solid #f0f0f0;
+        border-bottom: 2px solid #f0f0f0;
+        padding: 90px 0 90px 0;
+        background-color: #fff;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .form_title {
+        color: #000;
         font-size: 48px;
     }
 
+    .form_flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    
+    }
+
     .form_text {
+        color: #000;
+        text-align: start;
         font-size: 26px;
         padding-left: 100px;
     }
 
     .form_text::before {
         display: block;
+    }
+
+    .form_modal {
+        margin-right: 60px;
     }
 
     .serv_input {
@@ -1307,9 +1328,13 @@
         padding-bottom: 40px;
     }
 
+    .logo_mob {
+        width: 160px;
+    }
+
     .logo_footer {
         display: block;
-        max-width: 150px;
+        width: 150px;
     }
 
     .text_icon {
@@ -1319,19 +1344,36 @@
     }
 
     .list_footer {
+        width: 350px;
+        margin-left: 0px;
         display: flex;
         flex-wrap: wrap;
     }
 
 
     .footer_map {
-        max-width: 150px;
+        width: 250px;
         height: 70px;
+    }
+
+    .svg_map {
+        width: 28px;
+        height: 28px;
     }
 
     .nav_footer {
         display: flex;
 
+    }
+
+    .text_blok {
+        font-size: 12px;
+        opacity: .5;
+    }
+
+    .footer_blok_n {
+        font-size: 12px;
+        opacity: .5;
     }
 
 
