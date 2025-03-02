@@ -829,6 +829,7 @@ img {
     width: 130px;
     min-height: 40px;
     left: 20%;
+    margin-top: 10px;
 }
 
 .click_down:hover,
@@ -842,13 +843,14 @@ img {
 }
 
 .text_a {
+    width: 190px;
     color: #006dca;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.3em;
     text-decoration: transparent;
     text-align: center;
-    min-height: 36px
+    min-height: 60px;
 }
 
 .click_btn {
@@ -947,21 +949,6 @@ img {
     margin-bottom: 5px;
 }
 
-.btn_menu {
-    position: relative;
-}
-
-.form_icon {
-    width: 16px;
-    height: 12px;
-    position: absolute;
-    transition: all .3s;
-    fill: #2E2F42;
-    top: 60%;
-    right: 18px;
-    cursor: pointer;
-}
-
 .serv_input {
     font-family: 'Roboto', sans-serif;
     width: 352px;
@@ -982,8 +969,27 @@ img {
     justify-content: space-between;
     outline: transparent;
     cursor: pointer;
+    position: relative;
 
 }
+
+.btn_menu {
+    position: relative;
+}
+
+.arrow_down {
+    left: 90%;
+    border: solid #abadb1;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
 
 /* ---------------drop_menu */
 
@@ -1010,7 +1016,7 @@ img {
     background-color: #fff;
     padding: 10px 14px;
     position: absolute;
-    width: 92%;
+    width: 84%;
 }
 
 .list_menu {

@@ -22,8 +22,22 @@
 
     <header>
         <div class="container container_wrap">
+
+            <button type="button" class="burger_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
             <a class="logo_header" href="./index.html">
-                <img src="./imeges/logo.png" alt="">
+                <img src="./imeges/logo.png" alt="logo">
+            </a>
+
+
+            <a class="mobil_header" href="tel:380665113379">
+                <svg width="40" height="40">
+                    <use href="./imeges/tel_mob.svg#icon-phone"></use>
+                </svg>
             </a>
 
             <div class="address_nav">
@@ -51,6 +65,8 @@
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
                 <nav>
@@ -62,7 +78,7 @@
                             <a class="slidr_head" href="./product.html">Продукція</a>
                         </li>
                         <li class="list_flex">
-                            <a class="slidr_head underline_head" href="./pricelist.html">Прайс-лист</a>
+                            <a class="slidr_head" href="./pricelist.html">Прайс-лист</a>
                         </li>
                         <li class="list_flex">
                             <a class="slidr_head" href="./delivery.html">Доставка</a>
@@ -173,10 +189,11 @@
                     <form action="" class="form_modal">
                         <div class="user_menu">
                             <p class="servants_form">Продукти та послуги*</p>
-                            <div class="serv_input" data-modal-open>Обрати</div>
-                            <svg class="form_icon" width="13" height="8">
-                                <use href="./imeges/palets.svg#icon-chevron-thin-down"></use>
-                            </svg>
+                            <div class="serv_input" >
+                                Обрати
+                                <div class="arrow_down" data-modal-open></div>
+                            </div>
+                            
 
                             <!----------------------- ---------------drop_menu---------------- -->
                             <div class="closed" data-modal>

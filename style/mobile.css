@@ -299,14 +299,17 @@
     }
 
     .serv_input {
+        padding: 0px;
         width: 95%;
     }
 
     .name_input {
+        padding: 0px;
         width: 95%;
     }
 
     .tel_input {
+        padding: 0px;
         width: 95%;
     }
 
@@ -321,7 +324,7 @@
     /* ---------------drop_menu */
 
     .ul_menu {
-        width: 95.8%;
+        width: 90%;
         height: 250px;
     }
 
@@ -827,7 +830,7 @@
     /* ---------------drop_menu */
 
     .ul_menu {
-        width: 89.5%;
+        width: 84%;
         max-height: 200px;
     }
 
