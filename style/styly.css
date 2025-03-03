@@ -1014,9 +1014,11 @@ img {
     align-items: flex-start;
     overflow: auto;
     background-color: #fff;
-    padding: 10px 14px;
+    padding: 10px 10px;
     position: absolute;
     width: 84%;
+    top: 40px;
+    left: 0;
 }
 
 .list_menu {
@@ -1197,7 +1199,7 @@ img {
     cursor: pointer;
 }
 
-/*--------------------- section_six2------------------ */
+/*--------------------- section_one2------------------ */
 
 .section_one2 {
     width: 100%;
@@ -1295,9 +1297,13 @@ img {
     margin: 0;
 }
 
-.slider_img_two img {
-    max-width: 100%;
+.slider_img_two {
+    width: 395px;
 }
+
+/* .slider_img_two img {
+    max-width: 100%;
+} */
 
 .li_galary {
     width: 15px;

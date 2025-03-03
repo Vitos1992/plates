@@ -553,7 +553,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        /* font-size: 30px; */
         padding: 16px 0px 16px 0px;
     }
 
@@ -563,7 +562,6 @@
         align-items: flex-start;
         padding-left: 0px;
         margin-bottom: 16px;
-        /* font-size: 16px; */
     }
 
     .text_one::before {
@@ -574,7 +572,6 @@
         max-width: 220px;
         height: 40px;
         font-weight: 500;
-        /* font-size: 14px; */
         padding: 0px 5px 0px 5px;
         margin-bottom: 0px;
     }
@@ -602,6 +599,44 @@
         width: 33px;
         height: 33px;
     }
+
+    /* ----------------------section_one2 */
+
+    .section_one2 {
+        min-width: min-content;
+        min-height: 0px;
+        background-color: #f0f2f4;
+        text-align: center;
+        background-image: url(../imeges/section1-bg-1.png);
+        background-size: cover;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+    }
+
+    .text_one2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
+        margin-bottom: 16px;
+    }
+
+    .text_one2::before {
+        display: none;
+    }
+
+    .role_six2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider_img_two {
+        width: 290px;
+    }
+
+
 
     /* ----------------------section_two------ */
 
@@ -1099,6 +1134,8 @@
         height: 33px;
     }
 
+    /* ------------------------section_one2 */
+
 
     /*-------------------- section_two------------ */
 
@@ -1293,20 +1330,26 @@
     }
 
     .serv_input {
+        padding-left: 8px;
+        padding-right: 8px;
         max-width: 352px;
         height: 40px;
-        font-size: 22px;
+        font-size: 16px;
         color: black;
     }
 
     .name_input {
         max-width: 352px;
         height: 40px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .tel_input {
         max-width: 352px;
         height: 40px;
+        padding-left: 8px;
+        padding-right: 8px;
         
     }
 
@@ -1318,7 +1361,7 @@
     }
 
     .list_menu {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     /* --------------------footer */
