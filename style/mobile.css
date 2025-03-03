@@ -1,5 +1,4 @@
-
-@media screen and (min-width: 320px)  {
+@media screen and (min-width: 320px) {
 
     .container {
         min-width: 320px;
@@ -26,7 +25,7 @@
         width: 100px;
         padding-left: 70px;
         padding-right: 70px;
-        
+
     }
 
     .mobil_header {
@@ -61,7 +60,7 @@
 
     }
 
-    
+
 
     .titne_one {
         display: flex;
@@ -119,6 +118,44 @@
         width: 33px;
         height: 33px;
     }
+
+    /* ----------------------section_one2 */
+
+    .section_one2 {
+        min-width: min-content;
+        background-color: #293141;
+        background-image: none;
+        padding-bottom: 0px;
+        min-height: 100px;
+
+    }
+
+    .text_one2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+        font-size: calc(24px + 0 * (100vw / 1300));
+    }
+
+    .text_one2::before {
+        display: none;
+    }
+
+    .role_six2 {
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .slider_img_two {
+        width: 290px;
+    }
+
 
     /* ------------------section_two */
 
@@ -191,9 +228,9 @@
 
     .slider_clik {
         min-width: 300px;
-    
+
     }
-    
+
     .slick_role {
         min-width: 300px;
         max-height: 260px;
@@ -203,7 +240,7 @@
 
     .slick_role .slick-dots li button {
         display: none;
-        
+
     }
 
 
@@ -239,13 +276,13 @@
         width: 56px;
         height: 56px;
         margin-bottom: 10px;
-        
+
     }
 
     .title_name {
         font-size: calc(16px + 4 * (100vw / 1300));
 
-        
+
     }
 
     .text_thre {
@@ -329,7 +366,7 @@
     }
 
     /* ---------------footer */
-    
+
     .footer {
         min-width: min-content;
     }
@@ -522,7 +559,7 @@
         overflow: hidden;
         padding: 0px 0px 10px 0px;
         font-size: calc(14px + 6 * (100vw / 1300));
-        
+
     }
 
     /* ----------------section_one------------- */
@@ -629,6 +666,7 @@
 
     .role_six2 {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -657,7 +695,7 @@
         background-image: none;
     }
 
-    
+
 
     .title_section_two {
         text-align: start;
@@ -720,9 +758,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
-    
+
     .slick_role {
         min-width: 596px;
         max-height: 100%;
@@ -740,7 +778,7 @@
     .slick_role .slick-dots li button {
         display: block;
         width: 20px;
-        height: 20px; 
+        height: 20px;
     }
 
     /* ----------------section_thre----------- */
@@ -810,7 +848,7 @@
         background-size: cover;
         min-width: min-content;
         padding: 40px 0px 40px 0px;
-    }  
+    }
 
     .form_flex {
         display: flex;
@@ -851,7 +889,7 @@
     .tel_input {
         max-width: 250px;
         height: 30px;
-        
+
     }
 
     .click_down_form {
@@ -880,7 +918,7 @@
         min-width: min-content;
     }
 
-    
+
     .btn_up {
         font-size: calc(22px - 8 * (100vw / 1300));
     }
@@ -1082,7 +1120,7 @@
         padding-bottom: 0px;
         padding-top: 10%;
         height: 700px;
-    
+
     }
 
     .titne_one {
@@ -1098,11 +1136,11 @@
         padding-left: 100px;
         width: 500px;
         margin-bottom: 33px;
-    
+
     }
 
     .btn_prais {
-        max-width:  450px;
+        max-width: 450px;
         height: 56px;
         font-weight: 700;
         padding: 0 30px 0 30px;
@@ -1216,7 +1254,7 @@
 
     .slider_clik {
         min-width: auto;
-    
+
     }
 
     .slick_role .slick-dots {
@@ -1226,7 +1264,7 @@
     .slick_role .slick-dots li button {
         width: 15px;
         height: 15px;
-        
+
     }
 
     /* -----------------section_thre----------------- */
@@ -1311,7 +1349,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0px;
-    
+
     }
 
     .form_text {
@@ -1350,7 +1388,7 @@
         height: 40px;
         padding-left: 8px;
         padding-right: 8px;
-        
+
     }
 
     /* ---------------drop_menu */
