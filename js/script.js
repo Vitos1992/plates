@@ -5,7 +5,7 @@ $(".slick_role").slick({
     adaptiveHeight: true,
     speed: 1000,
     easing: "ease",
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 500,
     pauseOnHover: true,
     variableWidth: true,

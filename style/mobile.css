@@ -121,7 +121,7 @@
 
     /* ----------------------section_one2 */
 
-    .section_one2 {
+    /* .section_one2 {
         min-width: min-content;
         background-color: #293141;
         background-image: none;
@@ -138,7 +138,7 @@
         padding-left: 0;
         margin-bottom: 30px;
         font-size: calc(24px + 0 * (100vw / 1300));
-    }
+    } */
 
     .text_one2::before {
         display: none;
@@ -152,9 +152,9 @@
         justify-content: center;
     }
 
-    .slider_img_two {
+    /* .img_two {
         width: 290px;
-    }
+    } */
 
 
     /* ------------------section_two */
@@ -227,7 +227,7 @@
     }
 
     .slider_clik {
-        min-width: 300px;
+        width: 300px;
 
     }
 
@@ -670,9 +670,9 @@
         justify-content: center;
     }
 
-    .slider_img_two {
+    /* .slider_img_two {
         width: 290px;
-    }
+    } */
 
 
 
@@ -718,7 +718,6 @@
     .text_section {
         font-family: 'Roboto';
         color: #000;
-        /* font-size: 16px; */
         font-weight: 400;
         line-height: 1.5em;
         position: relative;
@@ -762,7 +761,7 @@
     }
 
     .slick_role {
-        min-width: 596px;
+        width: 395px;
         max-height: 100%;
         position: relative;
         overflow: hidden;
@@ -1227,8 +1226,22 @@
         flex-direction: row;
     }
 
+    .text_section {
+        font-family: 'Roboto';
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        position: relative;
+        padding: 0px 10px 20px 40px;
+    }
+    
     .viem_text {
         margin-right: 100px;
+    }
+    
+    .text_viem p {
+        margin: 1em 0;
     }
 
     .btm_box {
@@ -1253,9 +1266,14 @@
     }
 
     .slider_clik {
-        min-width: auto;
+        width: 680px;
 
     }
+
+    .slick_role {
+        width: 600px;
+    }
+
 
     .slick_role .slick-dots {
         margin-top: 10px;
