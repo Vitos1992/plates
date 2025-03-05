@@ -519,7 +519,7 @@ img {
 }
 
 .slick_role {
-    width: 270px;
+    width: 680px;
     position: relative;
     overflow: hidden;
     left: 0;
@@ -1282,8 +1282,13 @@ img {
 .role_six2 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 5px 5px;
     margin-bottom: 10px;
+}
+
+.slider_img_two2 {
+    width: 390px;
 }
 
 .ul_flex {
@@ -1984,8 +1989,8 @@ img {
     margin-right: auto;
 }
 
-.btn_item:hover,
-.btn_item:focus {
+.tupe_item:hover,
+.tupe_item:focus {
     color: #f9c000;
     fill: #f9c000;
 }
@@ -2056,6 +2061,10 @@ img {
     font-weight: 300;
     font-family: 'Roboto';
 }
+
+.footer_a:hover {
+    color: #f9c000;
+} 
 
 .btn_svg {
     fill: #fff;
