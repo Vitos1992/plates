@@ -69,7 +69,7 @@
         align-items: center;
         padding: 16px 0px 16px 0px;
         margin-bottom: 0px;
-        font-size: calc(32px + 28 * (100vw / 1300));
+        font-size: calc(24px + 24 * (100vw / 1300));
     }
 
     .text_one {
@@ -93,6 +93,7 @@
         padding: 10px 20px 10px 20px;
         font-weight: 700;
         font-size: calc(16px + 0 * (100vw / 1300));
+        margin-bottom: 20px;
     }
 
     .down_bottom {
@@ -121,7 +122,7 @@
 
     /* ----------------------section_one2 */
 
-    /* .section_one2 {
+    .section_one2 {
         min-width: min-content;
         background-color: #293141;
         background-image: none;
@@ -134,11 +135,12 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
         align-items: center;
         padding-left: 0;
         margin-bottom: 30px;
-        font-size: calc(24px + 0 * (100vw / 1300));
-    } */
+        font-size: calc(16px + 8 * (100vw / 1300));
+    } 
 
     .text_one2::before {
         display: none;
@@ -146,15 +148,15 @@
 
     .role_six2 {
         display: flex;
-        flex-direction: column;
         
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
-    /* .img_two {
-        width: 290px;
-    } */
+    .slider_img_two2 {
+        width: 300px;
+    }
+
 
 
     /* ------------------section_two */
@@ -655,9 +657,11 @@
     .text_one2 {
         display: flex;
         flex-direction: column;
+        text-align: start;
         align-items: flex-start;
         padding-left: 0px;
         margin-bottom: 16px;
+        width: 50%;
     }
 
     .text_one2::before {
@@ -670,9 +674,9 @@
         justify-content: center;
     }
 
-    /* .slider_img_two {
-        width: 290px;
-    } */
+    .slider_img_two2 {
+        width: 350px;
+    }
 
 
 
@@ -1171,7 +1175,44 @@
         height: 33px;
     }
 
-    /* ------------------------section_one2 */
+
+    /* ----------------------section_one2 */
+
+    .section_one2 {
+        min-width: min-content;
+        min-height: 0px;
+        background-color: #f0f2f4;
+        text-align: center;
+        background-image: url(../imeges/section1-bg-1.png);
+        background-size: cover;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+    }
+
+    .text_one2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 100px;
+        margin-bottom: 16px;
+        width: 45%;
+    }
+
+    .text_one2::before {
+        display: block;
+    }
+
+    .role_six2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .slider_img_two2 {
+        width: 390px;
+    }
 
 
     /*-------------------- section_two------------ */

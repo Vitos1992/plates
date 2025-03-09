@@ -398,6 +398,10 @@ img {
 
 }
 
+.btn_prais:hover {
+    background-color: #FFA500;
+}
+
 .down_bottom {
     display: flex;
     flex-direction: column;
@@ -1199,7 +1203,7 @@ img {
     cursor: pointer;
 }
 
-/*--------------------- section_one2------------------ */
+/*--------------------- section_six2------------------ */
 
 .section_one2 {
     width: 100%;
@@ -1289,6 +1293,15 @@ img {
 
 .slider_img_two2 {
     width: 390px;
+    overflow: hidden;
+}
+
+.slider_img_two2 img {
+    transition: transform 0.5s;
+}
+
+.slider_img_two2:hover img {
+    transform: scale(1.1);
 }
 
 .ul_flex {
