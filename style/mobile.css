@@ -997,6 +997,45 @@
         fill: inherit;
     }
 
+    .box__title_seven {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 10%;
+
+    }
+
+    .title_sec_eight {
+        font-size: calc(25px + 11 * (100vw / 1300));
+    }
+
+    .price {
+        width: 340px;
+        padding: 30px;
+    }
+
+    .text_eight {
+        width: 340px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .price_eight {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    .price_eight svg {
+        width: 38px;
+        height: 38px;
+    }
+
+    .textdown {
+        font-size: calc(16px + 4 * (100vw / 1300));
+    }
+
     
 
 
