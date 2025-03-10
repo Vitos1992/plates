@@ -1567,6 +1567,10 @@ img {
     min-height: 40px;
 }
 
+.btn_seven:hover {
+    background-color: #FFA500;
+}
+
 /*------------------- section_eight---------------- */
 
 .section_seven_box2 {
