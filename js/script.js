@@ -61,19 +61,13 @@ $(".slider_line").slick({
     const refs = {
       openMenuBtn: document.querySelector("[data-menu-open]"),
       closeMenuBtn: document.querySelector("[data-menu-close]"),
-      menu: document.querySelector("[data-menu]"),
+      mobile: document.querySelector("[data-menu]"),
     };
   
     refs.openMenuBtn.addEventListener("click", toggleMenu);
     refs.closeMenuBtn.addEventListener("click", toggleMenu);
   
     function toggleMenu() {
-        refs.menu.classList.toggle("is-hidden");
+        refs.mobile.classList.toggle("is-hidden");
     }
   })();
-
-  document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("burger").addEventListener("click", function() {
-        document.querySelector("open_mobile").classList.toggle("burger_close")
-    })
-  })
