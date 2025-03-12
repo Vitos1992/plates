@@ -40,6 +40,112 @@
         display: none;
     }
 
+    /* -------------------mobile_menu--------------- */
+
+    .mobile {
+        width: 80%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: fixed;
+        background-color: #fff;
+        z-index: 1;
+        
+    }
+
+    .mobile__head {
+        display: flex;
+        align-items: center;
+        padding: 0px 20px 0px 20xp;
+        width: 100%;
+        background-color: #f9c000;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .burger_close {
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background-color: #ddd;
+        border: none;
+        display: block;
+
+    }
+
+    .burger_close span {
+        position: absolute;
+        width: 15px;
+        height: 1px;
+        background-color: #283140;
+    }
+
+    .title_mobile {
+        font-family: 'Roboto', sans-serif;
+        color: #283140;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 20px;
+        background-color: #f9c000;  
+    }
+
+    .list__mobile {
+        display: block;
+        padding: 15px 20px;
+        font-size: 14px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+
+    .mobile__a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-style: normal;
+        color: #283140;
+    }
+
+    .mobile__a:focus {
+        color: #006dca;
+    }
+
+    .mobile__cont {
+        overflow: hidden;
+    }
+
+    .contact__mobile {
+        display: block;
+        padding: 15px 20px;
+        border-bottom: 1px solid #ddd;
+         
+    }
+
+    .tel__mobile {
+        font-family: 'Roboto', sans-serif;
+        color: #283140;
+        font-size: 14px;
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    .lang_menu_mob {
+        display: block;
+        
+        padding: 15px 20px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .hed_lang__mob {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-style: normal;
+        color: #283140;
+        font-size: 16px;
+    }
+
+    .hed_lang__mob:focus {
+        color: #006dca;
+    }
+
+    /* -------------------mobile_menu--------------- */
+
     /* ------------------section_one */
 
     .section_one {
@@ -655,6 +761,10 @@
     }
 
     .burger_btn {
+        display: none;
+    }
+
+    .mobile {
         display: none;
     }
 
@@ -1390,6 +1500,10 @@
     }
 
     .burger_btn {
+        display: none;
+    }
+
+    .mobile {
         display: none;
     }
 
