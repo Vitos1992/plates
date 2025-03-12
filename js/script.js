@@ -55,21 +55,5 @@ $(".slider_line").slick({
     }
 })();
 
-// menu_mobile
-
-(() => {
-    const refs = {
-      openMenuBtn: document.querySelector("[data-menu-open]"),
-      closeMenuBtn: document.querySelector("[data-menu-close]"),
-      mobile: document.querySelector("[data-menu]"),
-    };
-  
-    refs.openMenuBtn.addEventListener("click", toggleMenu);
-    refs.closeMenuBtn.addEventListener("click", toggleMenu);
-  
-    function toggleMenu() {
-        refs.mobile.classList.toggle("is-hidden");
-    }
-})();
 
 
