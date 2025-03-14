@@ -16,8 +16,15 @@
 })();
 
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     document.getElementById("burger").addEventListener("click", function() {
-//         document.querySelector("header").classList.toggle("open_mob")
-//     })
-// })
+// amimeits 
+
+let animItems = document.querySelectorAll('._anim_items');
+
+if (animItems.length > 0) {
+  function animOnScroll(params) {
+    for (let index = 0; index < animItems.length; index++) {
+      const animItems = animItems[index];
+      const
+    }
+  }
+}

@@ -355,6 +355,15 @@ img {
     width: 600px;
     text-align: start;
     margin-bottom: 30px;
+
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.titne_one._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .span_one {
@@ -371,6 +380,7 @@ img {
     padding-left: 100px;
     width: 500px;
     margin-bottom: 33px;
+
 
 }
 
