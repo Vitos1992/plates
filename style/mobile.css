@@ -499,7 +499,7 @@
     /* ---------------drop_menu */
 
     .ul_menu {
-        width: 90%;
+        width: -webkit-fill-available;
         height: 250px;
     }
     /*  */
@@ -1214,7 +1214,7 @@
     /* ---------------drop_menu */
 
     .ul_menu {
-        width: 84%;
+        width: -webkit-fill-available;
         max-height: 200px;
     }
 
@@ -1943,7 +1943,7 @@
     /* ---------------drop_menu */
 
     .ul_menu {
-        width: 92%;
+        width: -webkit-fill-available;
         max-height: 300px;
     }
 
