@@ -1761,7 +1761,7 @@ img {
   position: relative;
   text-align: right;
   border-top: 1px solid #dcdcdc;
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
 }
 
 .box__left_hous {
