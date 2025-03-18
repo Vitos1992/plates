@@ -670,6 +670,49 @@
     .list_text_ten {
         font-size: calc(12px + 4 * (100vw / 1300));
     }
+    
+    /* ---------------section_eleven ----------------*/
+
+    .box_section_eleven {
+        display: flex;
+        flex-direction: column;
+        gap: 15px 0px;
+        /* padding: 0px 20px 0px 20px; */
+    }
+
+    ._box_eleven {
+        padding: 0px 15px;
+    }
+
+    .title_eleven {
+        font-size: calc(16px + 20 * (100vw / 1300));
+    }
+
+    .title__eleven {
+        font-size: calc(12px + 4 * (100vw / 1300));
+    }
+
+    ._box_eleven_form {
+        width: 290px;
+    }
+
+    .box_form_eleven {
+        padding: 0px;
+    }
+
+    .user_textarea {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .serv_input_eleven {
+        width: auto;
+    }
+
+    .tel_input_eleven,
+    .name_input_eleven,
+    .eleven_texteria {
+        width: -webkit-fill-available;
+    }
 
     /* ---------------footer */
 

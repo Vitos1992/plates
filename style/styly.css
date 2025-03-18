@@ -1970,6 +1970,7 @@ img {
 }
 
 .eleven_texteria {
+    min-height: 100px;
     width: 100%;
 }
 
