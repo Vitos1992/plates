@@ -1788,6 +1788,16 @@ img {
   fill: inherit;
 }
 
+.box__title_sleven {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 10%;
+  top: 0;
+  position: absolute;
+}
+
 .titne_one_elev {
   font-family: "Roboto";
   font-size: 60px;

@@ -681,15 +681,26 @@
     
     /* ---------------section_eleven ----------------*/
 
+    .section_eleven_box2 {
+        padding-bottom: 185px;
+    }
+
     .box_section_eleven {
         display: flex;
         flex-direction: column;
         gap: 15px 0px;
-        /* padding: 0px 20px 0px 20px; */
     }
 
     .maps_eleven {
         clip-path: none;
+    }
+
+    .box__title_sleven {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 170px;
     }
 
     .titne_one_elev {
@@ -722,14 +733,6 @@
 
     ._box_eleven {
         padding: 0px 15px;
-    }
-
-    .box__title_sleven {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* padding-top: 150px; */
     }
 
     .title_eleven {
@@ -1496,10 +1499,94 @@
         font-size: calc(12px + 4 * (100vw / 1300));
     }
 
+    /* ---------------section_eleven ----------------*/
+
+    .section_eleven_box2 {
+        padding-bottom: 0px;
+        background-color: #f0f2f4;
+    }
+
+    .maps_eleven {
+        clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .box__title_sleven {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0px;
+        
+    }
+
+    .titne_one_elev {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        padding: 16px 0px 16px 0px;
+        margin-bottom: 0px;
+        font-size: calc(22px + 26 * (100vw / 1300));
+    }
+
+    .text_one_elev {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        padding-left: 0;
+        margin-bottom: 30px;
+        font-size: calc(16px + 8 * (100vw / 1300));
+    }
+
+    .text_one_elev::before {
+        display: none;
+    }
+
+    .box_section_eleven {
+        display: flex;
+        flex-direction: row;
+        gap: 0px 15px;
+    }
+
     
 
+    ._box_eleven {
+        padding: 0px 15px;
+    }
 
 
+    .title_eleven {
+        font-size: calc(20px + 24 * (100vw / 1300));
+    }
+
+    .title__eleven {
+        font-size: calc(14px + 2 * (100vw / 1300));
+    }
+
+    ._box_eleven_form {
+        width: 290px;
+    }
+
+    .box_form_eleven {
+        padding: 0px;
+    }
+
+    .user_textarea {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .serv_input_eleven {
+        width: auto;
+    }
+
+    .tel_input_eleven,
+    .name_input_eleven,
+    .eleven_texteria {
+        width: -webkit-fill-available;
+    }
 
 
     /* --------------- footer----------------------- */
@@ -2150,6 +2237,95 @@
 
     .list_text_ten {
         font-size: calc(12px + 4 * (100vw / 1300));
+    }
+
+    /* ---------------section_eleven ----------------*/
+
+    .section_eleven_box2 {
+        padding-bottom: 0px;
+        background-color: #f0f2f4;
+    }
+
+    .maps_eleven {
+        clip-path: polygon(35% 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .box__title_sleven {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0px;
+        
+    }
+
+    .titne_one_elev {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        padding: 16px 0px 16px 0px;
+        margin-bottom: 0px;
+        font-size: calc(22px + 26 * (100vw / 1300));
+    }
+
+    .text_one_elev {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        padding-left: 0;
+        margin-bottom: 30px;
+        font-size: calc(16px + 8 * (100vw / 1300));
+    }
+
+    .text_one_elev::before {
+        display: none;
+    }
+
+    .box_section_eleven {
+        display: flex;
+        flex-direction: row;
+        gap: 0px 15px;
+    }
+
+    
+
+    ._box_eleven {
+        padding: 0px 15px;
+    }
+
+
+    .title_eleven {
+        font-size: calc(20px + 24 * (100vw / 1300));
+    }
+
+    .title__eleven {
+        font-size: calc(14px + 2 * (100vw / 1300));
+    }
+
+    ._box_eleven_form {
+        width: 290px;
+    }
+
+    .box_form_eleven {
+        padding: 0px;
+    }
+
+    .user_textarea {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .serv_input_eleven {
+        width: auto;
+    }
+
+    .tel_input_eleven,
+    .name_input_eleven,
+    .eleven_texteria {
+        width: -webkit-fill-available;
     }
 
 
