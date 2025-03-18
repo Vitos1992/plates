@@ -1566,6 +1566,10 @@
         font-size: calc(14px + 2 * (100vw / 1300));
     }
 
+    .text_even {
+        width: 100%;
+    }
+
     ._box_eleven_form {
         width: 290px;
     }
@@ -2294,20 +2298,25 @@
     
 
     ._box_eleven {
+        width: 100%;
         padding: 0px 15px;
     }
 
 
     .title_eleven {
-        font-size: calc(20px + 24 * (100vw / 1300));
+        font-size: 40px;
     }
 
     .title__eleven {
-        font-size: calc(14px + 2 * (100vw / 1300));
+        font-size: calc(16px + 2 * (100vw / 1300));
+    }
+
+    .text_even {
+        width: 75%;
     }
 
     ._box_eleven_form {
-        width: 290px;
+        width: 500px;
     }
 
     .box_form_eleven {

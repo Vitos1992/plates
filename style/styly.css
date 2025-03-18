@@ -1896,6 +1896,7 @@ img {
 
 .serv_input_eleven {
   width: 100%;
+  background-color: #fff;
   border: 1px solid #bbb;
   height: 34px;
   border-radius: 4px;
@@ -1904,6 +1905,11 @@ img {
   justify-content: space-between;
   padding: 0px 2px 0px 4px;
   transition: all 0.3s;
+  position: relative;
+}
+
+.serv_input_eleven:hover {
+    border: 1px solid #f9c000;
 }
 
 .user_name_eleven {
@@ -1928,6 +1934,10 @@ img {
   transition: all 0.3s;
 }
 
+.name_input_eleven:hover {
+    border: 1px solid #f9c000;
+}
+
 .user_tel_eleven {
   margin-bottom: 18px;
 }
@@ -1950,6 +1960,10 @@ img {
   transition: all 0.3s;
 }
 
+.tel_input_eleven:hover {
+    border: 1px solid #f9c000;
+}
+
 .name_textarea {
   color: #293141;
   font-size: 16px;
@@ -1966,6 +1980,10 @@ img {
 .eleven_texteria {
   min-height: 100px;
   width: 100%;
+}
+
+.eleven_texteria:hover {
+    border: 1px solid #f9c000;
 }
 
 .click_btn_eleven {
