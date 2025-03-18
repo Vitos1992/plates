@@ -680,6 +680,38 @@
         /* padding: 0px 20px 0px 20px; */
     }
 
+    .maps_eleven {
+        clip-path: none;
+    }
+
+    .titne_one_elev {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 130px 0px 16px 0px;
+        margin-bottom: 0px;
+        font-size: calc(22px + 26 * (100vw / 1300));
+    }
+
+    .text_one_elev {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+        font-size: calc(16px + 8 * (100vw / 1300));
+    }
+
+    .text_one_elev::before {
+        display: none;
+    }
+
+    
+
     ._box_eleven {
         padding: 0px 15px;
     }
